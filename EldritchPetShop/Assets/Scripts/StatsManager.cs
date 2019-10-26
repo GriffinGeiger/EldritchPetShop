@@ -8,6 +8,11 @@ public class StatsManager : MonoBehaviour
     public int CurrentHealth;
     public string CurrentRep;
     public int CurrentFollowers;
+    public GameObject StatDisplays;
+    public GameObject StatValues;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
