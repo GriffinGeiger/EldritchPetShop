@@ -33,7 +33,7 @@ public class OfferingManager : MonoBehaviour
             SacrificeEvent(SType, Sacrifices);
             DeltaTime = rnd.Next(30, 61);
         }
-        GM.Money += (int)(Followers / 1000);
+        GM.Money += (10000 / 1000)*Time.deltaTime;
         // end if
     }
 
