@@ -107,7 +107,7 @@ Transform:
   m_GameObject: {fileID: 5179108102921453589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
   - {fileID: 1484674802299097959}
   m_Father: {fileID: 0}
@@ -133,6 +133,7 @@ MonoBehaviour:
   desireLossMultiplier: 0
   temper: 0
   appeaseStrength: 0
+  price: 0
   petName: Cthulu
   currentReputation: 2
   petType: 0
