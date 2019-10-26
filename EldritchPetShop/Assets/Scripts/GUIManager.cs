@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GUIManager : MonoBehaviour
 {
     public double Money;
     public int Humans;
     public int Animals;
     public int Relics;
+    public GameObject MoneyDisplay;
 
     void Start()
     {
-        Money = 100000;
+        Money = 150000;
         Humans = 0;
         Animals = 0;
         Relics = 0;
@@ -21,6 +23,7 @@ public class GUIManager : MonoBehaviour
     void Update()
     {
         //Update Inventory GUI
+        MoneyDisplay.GetComponent<UnityEngine.UI.Text>().text = "$" + ((int)(Money)).ToString();
     }
 
     public void DisplayTextbox(string text)
