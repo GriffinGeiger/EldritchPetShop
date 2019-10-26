@@ -130,6 +130,7 @@ MonoBehaviour:
   preferredLocation: 0
   desireLowEnd: 6
   desireHighEnd: 8
+  desireLossMultiplier: 0
   temper: 0
   petName: Cthulu
   currentReputation: 2
@@ -140,6 +141,7 @@ MonoBehaviour:
   walkingDestination: {x: 0, y: 0, z: 0}
   currentDesire: 2
   desireStrength: 0
+  timeUntilNextMotive: 0
 --- !u!114 &5179108102921453590
 MonoBehaviour:
   m_ObjectHideFlags: 0

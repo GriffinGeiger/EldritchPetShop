@@ -10,9 +10,11 @@ public enum Offering
 public enum Reputation
 {
     Loved,
+    LovedMostly,
     LovedSomewhat,
     Neutral,
     FearedSomewhat,
+    FearedMostly,
     Feared
 }
 public enum PetType
@@ -75,20 +77,47 @@ public class PetController : MonoBehaviour
     public Desire currentDesire;
     public float desireStrength;
     public float timeUntilNextMotive;
+    [Header("Pet's Desire Percentages")]
+    public float wanderPercentage;
+    public float goToWorldPercentage;
+    public float goToCultPercentage;
+    public float fightPercentage;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        int test = (int) Reputation.Feared;
     }
 
     // Update is called once per frame
     void Update()
     {
         //Choose new motive when desire runs out
-        //if(desireStrength)
+        if(desireStrength <= 0)
+        {
+            //Choose new motive
+            float random = Random.Range(0, 100);
+            if(random >= 0 && random < 250)
+            {
+                currentDesire = Desire.Wander;
+            }
+            else if(random >= 250 && random < 500)
+            {
+                currentDesire = Desire.GoToWorld;
+            }
+            else if (random >= 500 && random < 750)
+            {
+                currentDesire = Desire.GoToCult;
+            }
+            else if (random >= 750 && random <= 1000)
+            {
+                currentDesire = Desire.GoToWorld;
+            }
+        }
         //Desire runs out as a function of time or if user appeases pet
         //Desire runs out faster if the pet is further
-        
+
+
+
     }
 }
