@@ -1388,6 +1388,12 @@ MonoBehaviour:
   Shop: {fileID: 1409964163}
   ShopButtons: []
   OpenShopButton: {fileID: 706882652}
+  PriceSho: 100000
+  PriceMig: 400000
+  PriceCth: 800000
+  PriceHas: 1000000
+  PriceShu: 2000000
+  PriceAza: 10000000
 --- !u!4 &1409964165
 Transform:
   m_ObjectHideFlags: 0

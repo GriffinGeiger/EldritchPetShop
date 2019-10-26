@@ -8,6 +8,14 @@ public class ShopManager : MonoBehaviour
     public ShopButton[] ShopButtons;
     public GameObject OpenShopButton;
 
+    //PRICES
+    public int PriceSho;
+    public int PriceMig;
+    public int PriceCth;
+    public int PriceHas;
+    public int PriceShu;
+    public int PriceAza;
+
     void Start()
     {
         Shop = this.gameObject;
