@@ -4,27 +4,33 @@ using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
-    public bool HideShop;
-    GameObject Shop;
+    public GameObject Shop;
+    public ShopButton[] ShopButtons;
+    public GameObject OpenShopButton;
 
     void Start()
     {
-        HideShop = true;
         Shop = this.gameObject;
+        ShopButtons = (ShopButton[])GameObject.FindObjectsOfType(typeof(ShopButton));
+        CloseShop();
     }
 
-    void Update()
+    public void OpenShop()
     {
-        Shop.SetActive(!HideShop);
+        foreach (ShopButton sb in ShopButtons)
+        {
+            GameObject go = sb.gameObject;
+            go.SetActive(true);
+        }
+        OpenShopButton.SetActive(false);
     }
-
-    public void ButtonPress()
+    public void CloseShop()
     {
-        HideShop = false;
-    }
-
-    public void ExitButtonPress()
-    {
-        HideShop = true;
+        foreach (ShopButton sb in ShopButtons)
+        {
+            GameObject go = sb.gameObject;
+            go.SetActive(false);
+        }
+        OpenShopButton.SetActive(true);
     }
 }
