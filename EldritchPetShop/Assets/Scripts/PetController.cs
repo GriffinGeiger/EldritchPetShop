@@ -67,9 +67,13 @@ public class PetController : MonoBehaviour
     public Temper temper;
     public float appeaseStrength; //How much desire is lost when appeased with normal offering
     public float price;
+    public float bobbingAmplitude;
+    public float bobbingRate;
+    public float matureAge;
 
     [Header("Pet's Current Statuses")]
     public string petName;
+    public float age;
     public Reputation currentReputation;    //The reputation that this instance of the pet has
     public PetType petType;
     public PetLevel petLevel;
@@ -79,9 +83,10 @@ public class PetController : MonoBehaviour
     public Vector3 walkingDestination;
     public Desire currentDesire;
     public float desireStrength;
-    public float timeUntilNextMotive;
+    public bool currentlyLosingDesire; //Won't lose desire when paused or dragged
+    
+    public Dictionary<Desire, int> desireWeights = new Dictionary<Desire, int>();
     [Header("Pet's Desire weights")]
-    Dictionary<Desire, int> desireWeights = new Dictionary<Desire, int>();
     public int wanderWeight;
     public int fightWeight;
     public int goToWorldWeight;
@@ -103,6 +108,7 @@ public class PetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //////////////////////////////Desire////////////////////////////////////
         //Choose new motive when desire runs out
         if(desireStrength <= 0)
         {
@@ -124,17 +130,21 @@ public class PetController : MonoBehaviour
                     ChooseNewDestination();
                     break;
                 }
-            }
-            
+            }  
         }
         //Desire runs out as a function of time or if user appeases pet
         //Desire runs out faster if the pet is further
-        if (Vector3.Distance(transform.position, walkingDestination) > desireFastDropDistance)
-            desireStrength -= desireLossRate * Time.deltaTime * 2;              //Desire is dropped at twice the rate if outside fast drop distance
-        else
-            desireStrength -= desireLossRate * Time.deltaTime;
+        if (currentlyLosingDesire)
+        {
+            if (Vector3.Distance(transform.position, walkingDestination) > desireFastDropDistance)
+                desireStrength -= desireLossRate * Time.deltaTime * 2;//Desire is dropped at twice the rate if outside fast drop distance
+            else
+                desireStrength -= desireLossRate * Time.deltaTime;
+        }
 
+        //////////////////////////////Desire////////////////////////////////////
 
+        transform.position += new Vector3(0f,Mathf.Sin(Time.time*bobbingRate)*bobbingAmplitude, 0f);
 
     }
 
@@ -159,13 +169,12 @@ public class PetController : MonoBehaviour
     }
     public void ChooseNewDestination()
     {
-        Debug.Log("Choosing new destination " + currentDesire);
+        
         switch (currentDesire)
         {
             case Desire.Wander:
                 //Pick random wander spot
                 walkingDestination = gm.GenerateRandomWanderPoint();
-                Debug.Log("New walkingDestionation:" + walkingDestination.ToString());
                 break;
             case Desire.GoToWorld:
                 //Go to world spot

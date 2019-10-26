@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PathingModule : MonoBehaviour
 {
-    public float speed = .5f;
-    public Vector3 targetLocation;
+    public float speed;
+    [SerializeField]
+    private Vector3 targetLocation;
     public bool travelling = true;
-    public bool paused;
     public PetController PC;
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,9 @@ public class PathingModule : MonoBehaviour
         float step = speed * Time.deltaTime;
         if (travelling)
         {
-            Vector3.MoveTowards(gameObject.transform.position, targetLocation, step);
+            transform.position = Vector2.MoveTowards(transform.position, targetLocation, step);
         }
-        if(Vector3.Distance(transform.position,targetLocation) < .001f)
+        if(Vector2.Distance(transform.position,targetLocation) < .001f)
         {
             //Tell PC it is done moving to this location
             PC.ChooseNewDestination();

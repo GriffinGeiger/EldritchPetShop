@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject minMovementArea;
     public GameObject doorToWorld;
     public GameObject circleToCult;
+    public float timescale = 1000; // 1000 years per second
 
 
     void Start()

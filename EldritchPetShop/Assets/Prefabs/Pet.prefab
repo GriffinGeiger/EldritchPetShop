@@ -130,7 +130,8 @@ MonoBehaviour:
   preferredLocation: 0
   desireLowEnd: 6
   desireHighEnd: 8
-  desireLossMultiplier: 0
+  desireLossRate: 1
+  desireFastDropDistance: 3
   temper: 0
   appeaseStrength: 0
   price: 0
@@ -141,9 +142,13 @@ MonoBehaviour:
   followers: 0
   currentLocation: 0
   walkingDestination: {x: 0, y: 0, z: 0}
-  currentDesire: 2
+  currentDesire: 0
   desireStrength: 0
-  timeUntilNextMotive: 0
+  wanderWeight: 75
+  fightWeight: 0
+  goToWorldWeight: 0
+  goToCultWeight: 0
+  gm: {fileID: 0}
 --- !u!114 &5179108102921453590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36891de3bf87b94aa1d9cf9eb02db4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
   targetLocation: {x: 0, y: 0, z: 0}
-  isTravelling: 0
-  isPaused: 0
+  travelling: 1
+  PC: {fileID: 0}
