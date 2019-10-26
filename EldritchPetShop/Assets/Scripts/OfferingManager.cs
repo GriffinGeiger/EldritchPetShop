@@ -11,6 +11,7 @@ public class OfferingManager : MonoBehaviour
     public string SType;
     int time;
     int DeltaTime;
+    int NewCash;
 
     void Start()
     {
@@ -21,12 +22,18 @@ public class OfferingManager : MonoBehaviour
 
     void Update()
     {
+        //if time unpaused
         time += Time.deltaTime;
+        SType = PickSac();
+        Sacrifices = SacNum();
         if (time > DeltaTime)
         {
-            //initiate Sacrific Event
+            SacrificEvent(SType, Sacrifices);
             DeltaTime = rnd.Next(30, 61);
         }
+        NewCash = Followers / 1000;
+        InventoryManager.Money += NewCash;
+        // end if
     }
 
     string PickSac()
@@ -49,5 +56,22 @@ public class OfferingManager : MonoBehaviour
     {
         int n = Followers / 10000;
         return n;
+    }
+
+    void SacrificeEvent(string Type, int Num)
+    {
+        //Initiate textbox here
+        if (Type == "Human")
+        {
+            InventoryManager.Humans += Num;
+        }
+        else if (Type == "Animal")
+        {
+            InventoryManager.Animals += Num;
+        }
+        else
+        {
+            InventoryManager.Relics += Num;
+        }
     }
 }
