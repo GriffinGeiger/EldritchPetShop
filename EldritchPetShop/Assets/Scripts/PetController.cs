@@ -58,6 +58,7 @@ public class PetController : MonoBehaviour
     public Reputation currentReputation;    //The reputation that this instance of the pet has
     public PetType petType;
     public PetLevel petLevel;
+    public double followers;
     [Header("Pet's Current Behavior")]
     public Location currentLocation;
     public Vector3 walkingDestination;
