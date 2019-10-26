@@ -205,8 +205,8 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
-  - PetTypes: 0300000003000000
-    eventType: 0
+  - PetTypes: 030000000500000002000000
+    eventType: 1
     eventText: 
     optionAText: 
     optionBText: 
