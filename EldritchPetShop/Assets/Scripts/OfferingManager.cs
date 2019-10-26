@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,18 +7,19 @@ public class OfferingManager : MonoBehaviour
 {
     public PetController controller;
     double Followers;
-    double Reputation;
+    Reputation Reputation;
     public int Sacrifices;
     public string SType;
-    int time;
+    float time;
     int DeltaTime;
-    int NewCash;
-
+    System.Random rnd = new System.Random();
+    InventoryManager IM;
     void Start()
     {
         Followers = controller.followers;
         Reputation = controller.currentReputation;
         DeltaTime = rnd.Next(30, 61);
+        IM = (InventoryManager)GameObject.FindObjectOfType(typeof(InventoryManager));
     }
 
     void Update()
@@ -28,33 +30,49 @@ public class OfferingManager : MonoBehaviour
         Sacrifices = SacNum();
         if (time > DeltaTime)
         {
-            SacrificEvent(SType, Sacrifices);
+            SacrificeEvent(SType, Sacrifices);
             DeltaTime = rnd.Next(30, 61);
         }
-        NewCash = Followers / 1000;
-        InventoryManager.Money += NewCash;
+        IM.Money += (int)(Followers / 1000);
         // end if
     }
 
     string PickSac()
     {
-        if (Reputation < .33)
+        if(Reputation == Reputation.Feared)
         {
             return "Human";
         }
-        else if (Reputation < .66)
+        else if (Reputation == Reputation.FearedMostly)
+        {
+            return "Human";
+        }
+        else if (Reputation == Reputation.FearedSomewhat)
         {
             return "Animal";
         }
-        else
+        else if (Reputation == Reputation.Neutral)
+        {
+            return "Animal";
+        }
+        else if (Reputation == Reputation.LovedSomewhat)
+        {
+            return "Animal";
+        }
+        else if (Reputation == Reputation.LovedMostly)
         {
             return "Relic";
         }
+        else if (Reputation == Reputation.Loved)
+        {
+            return "Relic";
+        }
+        return "error";
     }
 
     int SacNum()
     {
-        int n = Followers / 10000;
+        int n = (int)(Followers / 10000);
         return n;
     }
 
@@ -63,15 +81,15 @@ public class OfferingManager : MonoBehaviour
         //Initiate textbox here
         if (Type == "Human")
         {
-            InventoryManager.Humans += Num;
+            IM.Humans += Num;
         }
         else if (Type == "Animal")
         {
-            InventoryManager.Animals += Num;
+            IM.Animals += Num;
         }
         else
         {
-            InventoryManager.Relics += Num;
+            IM.Relics += Num;
         }
     }
 }
