@@ -1304,7 +1304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1119182342706209033
 Transform:
   m_ObjectHideFlags: 0
@@ -2045,6 +2045,8 @@ MonoBehaviour:
   CurrentHealth: 69
   CurrentRep: Cool Dude
   CurrentFollowers: 0
+  StatDisplays: {fileID: 0}
+  StatValues: {fileID: 0}
 --- !u!4 &1119182343046822267
 Transform:
   m_ObjectHideFlags: 0
@@ -3283,12 +3285,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f84194d5cc4f6d4791e2efdb039a892, type: 3}
---- !u!1 &4981404837173525676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5380010621040159597, guid: 1f84194d5cc4f6d4791e2efdb039a892,
-    type: 3}
-  m_PrefabInstance: {fileID: 4981404837173525675}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7496821898832181012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3356,31 +3352,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: maxMovementArea
-      value: 
-      objectReference: {fileID: 1613774549}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: minMovementArea
-      value: 
-      objectReference: {fileID: 139780189}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: doorToWorld
-      value: 
-      objectReference: {fileID: 1336286538}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: circleToCult
-      value: 
-      objectReference: {fileID: 2071559317}
-    - target: {fileID: 8223335722433870833, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: EventPopupGUI
-      value: 
-      objectReference: {fileID: 4981404837173525676}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f9e60937db3454098e7bf79c1a0596, type: 3}
 --- !u!1001 &7814584817888115271
