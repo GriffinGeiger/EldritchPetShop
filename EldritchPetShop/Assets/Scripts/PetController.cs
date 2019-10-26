@@ -24,7 +24,7 @@ public enum PetType
     Hastur,
     Azathoth,
     ShubNiggurath,
-    Shogoth
+    Shoggoth
 }
 public enum PetLevel
 {

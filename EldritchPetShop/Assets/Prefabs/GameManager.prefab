@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7496821899251015717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7496821899251015719}
+  - component: {fileID: 7496821899251015718}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7496821899251015719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496821899251015717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7496821899251015718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496821899251015717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0745bbf963b4064d82e6f74420d3a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxMovementArea: {fileID: 0}
+  minMovementArea: {fileID: 0}
+  doorToWorld: {fileID: 0}
+  circleToCult: {fileID: 0}
+  timescale: 1000
+  Events: []
+  AzathothWorldEvents: []
+  CthuluWorldEvents: []
+  MiGoWorldEvents: []
+  HasturWorldEvents: []
+  ShubWorldEvents: []
+  ShoggothWorldEvents: []
+  AzathothCultEvents: []
+  CthuluCultEvents:
+  - PetTypes: 00000000
+    eventType: 0
+    eventText: hello
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0000000000000000
+    eventType: 0
+    eventText: 
+    optionAText: 
+    optionBText: 
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  MiGoCultEvents: []
+  HasturCultEvents: []
+  ShubCultEvents: []
+  ShoggothCultEvents: []
