@@ -10,13 +10,16 @@ public class GUIManager : MonoBehaviour
     public int Animals;
     public int Relics;
     public GameObject MoneyDisplay;
+    public GameObject RelicDisplay;
+    public GameObject AnimalDisplay;
+    public GameObject HumanDisplay;
 
     void Start()
     {
         Money = 150000;
-        Humans = 0;
-        Animals = 0;
-        Relics = 0;
+        Humans = 1;
+        Animals = 2;
+        Relics = 3;
     }
 
     
@@ -24,6 +27,9 @@ public class GUIManager : MonoBehaviour
     {
         //Update Inventory GUI
         MoneyDisplay.GetComponent<UnityEngine.UI.Text>().text = "$" + ((int)(Money)).ToString();
+        RelicDisplay.GetComponent<UnityEngine.UI.Text>().text = (Relics).ToString();
+        AnimalDisplay.GetComponent<UnityEngine.UI.Text>().text = (Animals).ToString();
+        HumanDisplay.GetComponent<UnityEngine.UI.Text>().text = (Humans).ToString();
     }
 
     public void DisplayTextbox(string text)
