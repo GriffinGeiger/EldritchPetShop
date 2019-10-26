@@ -39,10 +39,17 @@ public enum Location
 }
 public enum Desire
 {
+    Wander,
     GoToWorld,
     GoToCult,
-    Wander,
     Fight
+}
+public enum Temper
+{
+    Passive,
+    Aggressive,
+    Unstable,
+    Benevolent
 }
 public class PetController : MonoBehaviour
 {
@@ -53,6 +60,9 @@ public class PetController : MonoBehaviour
     public Location preferredLocation;
     public float desireLowEnd;  //When they desire to do something, somewhere in this range will be how strongly they desire it.
     public float desireHighEnd; // Higher desire is higher stubbornness 
+    public float desireLossMultiplier; //How fast desire is lost
+
+    public Temper temper;
     [Header("Pet's Current Statuses")]
     public string petName;
     public Reputation currentReputation;    //The reputation that this instance of the pet has
@@ -64,6 +74,7 @@ public class PetController : MonoBehaviour
     public Vector3 walkingDestination;
     public Desire currentDesire;
     public float desireStrength;
+    public float timeUntilNextMotive;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +85,10 @@ public class PetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Choose new motive when desire runs out
+        //if(desireStrength)
+        //Desire runs out as a function of time or if user appeases pet
+        //Desire runs out faster if the pet is further
         
     }
 }
