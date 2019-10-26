@@ -12,7 +12,7 @@ public enum EventType
 public class EventPlatformManager : MonoBehaviour
 {
     public EventType EventPlatformType;
-    private GUIManager gui;
+    public GUIManager gui;
     private GameManager gm;
     private void Start()
     {

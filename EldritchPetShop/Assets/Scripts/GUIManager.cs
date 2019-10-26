@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class GUIManager : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class GUIManager : MonoBehaviour
     public GameObject RelicDisplay;
     public GameObject AnimalDisplay;
     public GameObject HumanDisplay;
+    public GameObject EventPopupGUI;
 
     void Start()
     {
@@ -45,6 +46,18 @@ public class GUIManager : MonoBehaviour
         entry.eventText.Replace("\name", petName.ToString());
         entry.optionAText.Replace("\name", petName.ToString());
         entry.optionBText.Replace("\name", petName.ToString());
+
+        Text[] texts = EventPopupGUI.GetComponentsInChildren<Text>();
+        foreach(Text t in texts)
+        {
+            if (t.gameObject.CompareTag("ButtonA"))
+                t.text = entry.optionAText;
+            else if (t.gameObject.CompareTag("ButtonB"))
+                t.text = entry.optionBText;
+            else if(t.gameObject.CompareTag("EventText"))
+                t.text = entry.eventText;
+        }
+        
     }
 
     public void SpendItem(string item)
