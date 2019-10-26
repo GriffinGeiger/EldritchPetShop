@@ -13,13 +13,13 @@ public class OfferingManager : MonoBehaviour
     float time;
     int DeltaTime;
     System.Random rnd = new System.Random();
-    InventoryManager IM;
+    GUIManager GM;
     void Start()
     {
         Followers = controller.followers;
         Reputation = controller.currentReputation;
         DeltaTime = rnd.Next(30, 61);
-        IM = (InventoryManager)GameObject.FindObjectOfType(typeof(InventoryManager));
+        GM = (GUIManager)GameObject.FindObjectOfType(typeof(GUIManager));
     }
 
     void Update()
@@ -33,7 +33,7 @@ public class OfferingManager : MonoBehaviour
             SacrificeEvent(SType, Sacrifices);
             DeltaTime = rnd.Next(30, 61);
         }
-        IM.Money += (int)(Followers / 1000);
+        GM.Money += (int)(Followers / 1000);
         // end if
     }
 
@@ -41,31 +41,31 @@ public class OfferingManager : MonoBehaviour
     {
         if(Reputation == Reputation.Feared)
         {
-            return "Human";
+            return "Humans";
         }
         else if (Reputation == Reputation.FearedMostly)
         {
-            return "Human";
+            return "Humans";
         }
         else if (Reputation == Reputation.FearedSomewhat)
         {
-            return "Animal";
+            return "Animals";
         }
         else if (Reputation == Reputation.Neutral)
         {
-            return "Animal";
+            return "Animals";
         }
         else if (Reputation == Reputation.LovedSomewhat)
         {
-            return "Animal";
+            return "Animals";
         }
         else if (Reputation == Reputation.LovedMostly)
         {
-            return "Relic";
+            return "Relics";
         }
         else if (Reputation == Reputation.Loved)
         {
-            return "Relic";
+            return "Relics";
         }
         return "error";
     }
@@ -78,18 +78,19 @@ public class OfferingManager : MonoBehaviour
 
     void SacrificeEvent(string Type, int Num)
     {
-        //Initiate textbox here
+        string text = "You have recieved " + Num + " " + Type + ".";
+        GM.DisplayTextbox(text);
         if (Type == "Human")
         {
-            IM.Humans += Num;
+            GM.Humans += Num;
         }
         else if (Type == "Animal")
         {
-            IM.Animals += Num;
+            GM.Animals += Num;
         }
         else
         {
-            IM.Relics += Num;
+            GM.Relics += Num;
         }
     }
 }

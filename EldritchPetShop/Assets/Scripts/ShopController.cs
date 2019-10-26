@@ -11,6 +11,7 @@ public class ShopController : MonoBehaviour
     public bool hidden;
     public ShopManager SM;
     public bool Purchasing;
+    public GameObject Pet;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class ShopController : MonoBehaviour
         Owned = false;
         Purchasing = false;
         hidden = true;
+        SM = (ShopManager)GameObject.FindObjectOfType(typeof(ShopManager));
     }
 
     void Update()
@@ -26,17 +28,17 @@ public class ShopController : MonoBehaviour
         hidden = SM.HideShop;
         if (hidden == false & Owned == false)
         {
-            //Show Monster button
+            Pet.SetActive(true);
         }
         if (Purchasing == true)
         {
             Owned = true;
-            //Hide Monster Button
+            Pet.SetActive(false);
             //Add Monster to House
         }
         if (hidden == true)
         {
-            //Hide Monster Button
+            Pet.SetActive(false);
         }
     }
 

@@ -5,22 +5,17 @@ using UnityEngine;
 public class ShopManager : MonoBehaviour
 {
     public bool HideShop;
+    GameObject Shop;
 
     void Start()
     {
         HideShop = true;
+        Shop = this.gameObject;
     }
 
     void Update()
     {
-        if(HideShop == false)
-        {
-            //Display Shop UI
-        }
-        if (HideShop == true)
-        {
-            //Hide Shop UI
-        }
+        Shop.SetActive(!HideShop);
     }
 
     public void ButtonPress()
