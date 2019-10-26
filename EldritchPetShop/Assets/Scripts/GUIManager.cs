@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class GUIManager : MonoBehaviour
 {
-    public int Money;
+    public double Money;
     public int Humans;
     public int Animals;
     public int Relics;
 
     void Start()
     {
-        Money = 1000;
+        Money = 100000;
         Humans = 0;
         Animals = 0;
         Relics = 0;
