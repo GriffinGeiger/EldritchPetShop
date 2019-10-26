@@ -404,7 +404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Hastur
 --- !u!222 &273679113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -580,7 +580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Azathoth
 --- !u!222 &563946404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  Name: Azathoth
+  Name: Cth
   SM: {fileID: 1409964164}
   Purchasing: 0
   ButtonType: 
@@ -1045,8 +1045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -208, y: -143}
-  m_SizeDelta: {x: 102.9, y: 30}
+  m_AnchoredPosition: {x: -189.4, y: -144.3}
+  m_SizeDelta: {x: 140.1, y: 32.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000271097
 MonoBehaviour:
@@ -1061,7 +1061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  Name: Azathoth
+  Name: Shu
   SM: {fileID: 1409964164}
   Purchasing: 0
   ButtonType: 
@@ -1223,7 +1223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Shub-Niggurath
 --- !u!222 &1064111857
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1261,7 +1261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37bd3c193c3576a439f9751388b4d4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Money: 3000
+  Money: 0
   Humans: 0
   Animals: 0
   Relics: 0
@@ -1347,7 +1347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Cthulu
 --- !u!222 &1298703014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1484,7 +1484,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Shoggoth
 --- !u!222 &1467692290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1546,7 +1546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  Name: Azathoth
+  Name: Sho
   SM: {fileID: 1409964164}
   Purchasing: 0
   ButtonType: 
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  Name: Azathoth
+  Name: Mig
   SM: {fileID: 1409964164}
   Purchasing: 0
   ButtonType: 
@@ -2064,7 +2064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  Name: Azathoth
+  Name: Has
   SM: {fileID: 1409964164}
   Purchasing: 0
   ButtonType: 
@@ -2309,7 +2309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Pet
+  m_Text: Buy Mi-Go
 --- !u!222 &2137233956
 CanvasRenderer:
   m_ObjectHideFlags: 0
