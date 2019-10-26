@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 1164008608}
   - component: {fileID: 1164008607}
   - component: {fileID: 1164008609}
+  - component: {fileID: 1164008610}
   m_Layer: 0
   m_Name: Main GameObject
   m_TagString: Untagged
