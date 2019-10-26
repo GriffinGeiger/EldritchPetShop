@@ -37,9 +37,14 @@ public class GUIManager : MonoBehaviour
         //Display textbox with text
     }
 
-    public void DisplayEventbox(string text, string optionA, string optionB)
+    public void DisplayEventbox(EventEntry entry, string petName)
     {
         //Display textbox with text and two options as 2 buttons
+
+        //replace name text with monster name \name
+        entry.eventText.Replace("\name", petName.ToString());
+        entry.optionAText.Replace("\name", petName.ToString());
+        entry.optionBText.Replace("\name", petName.ToString());
     }
 
     public void SpendItem(string item)

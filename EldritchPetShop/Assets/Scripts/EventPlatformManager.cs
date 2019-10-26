@@ -21,7 +21,11 @@ public class EventPlatformManager : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-     //gui.DisplayEventbox(getRandomEvent(EventPlatformType));
+        PetController pc = other.GetComponent<PetController>();
+        if (pc != null)
+        {
+            gui.DisplayEventbox(getRandomEvent(EventPlatformType,pc.petType), pc.petName);
+        }
 
     }
     private void Update()
