@@ -65,6 +65,7 @@ public class PetController : MonoBehaviour
     public float desireLossMultiplier; //How fast desire is lost
     public Temper temper;
     public float appeaseStrength; //How much desire is lost when appeased with normal offering
+    public float price;
     [Header("Pet's Current Statuses")]
     public string petName;
     public Reputation currentReputation;    //The reputation that this instance of the pet has
