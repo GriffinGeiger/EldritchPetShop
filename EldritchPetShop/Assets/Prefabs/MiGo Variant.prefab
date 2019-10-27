@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6310630388364015265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9003157794190805698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e33e349070084f488da9dff2d1d4346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6035780420987380170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9003157794190805698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2790337, y: 1.7723081, z: 1}
+  m_Center: {x: 0.21464126, y: -0.032179676, z: 0}
 --- !u!1001 &4264424173020072663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,12 +35,12 @@ PrefabInstance:
     - target: {fileID: 5179108102921453589, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_Name
-      value: MiGo Variant
+      value: MiGo
       objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.568
       objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
@@ -67,6 +92,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1484674802299097959, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484674802299097959, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.14804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484674802299097959, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.14804
+      objectReference: {fileID: 0}
     - target: {fileID: 6887596791117442891, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_Sprite
@@ -75,3 +115,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4, type: 3}
+--- !u!1 &9003157794190805698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5179108102921453589, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4264424173020072663}
+  m_PrefabAsset: {fileID: 0}
