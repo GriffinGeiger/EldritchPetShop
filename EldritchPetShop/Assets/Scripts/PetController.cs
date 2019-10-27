@@ -74,6 +74,8 @@ public class PetController : MonoBehaviour
     public float bobbingRate;
     public float matureAge;
     public float healthFightDrainRate;
+    public EventEntry MaturedMessage;
+    public EventEntry DiedMessage;
 
     [Header("Pet's Current Statuses")]
     public string petName;
@@ -107,6 +109,7 @@ public class PetController : MonoBehaviour
     public SpriteRenderer sprite;
     public Sprite calm;
     public Sprite angery;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -121,6 +124,14 @@ public class PetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (petHealth <= 0)
+            Die();
+        if(age >= matureAge)
+        {
+            Matured();
+        }
+
         if(petType == PetType.ShubNiggurath)
         {
             if (currentReputation >= (Reputation)5)
@@ -205,6 +216,18 @@ public class PetController : MonoBehaviour
     public void CompletedDesire()
     {
 
+    }
+
+    public void Die()
+    {
+        FindObjectOfType<GUIManager>().DisplayEventbox(DiedMessage,this);
+        GameObject.Destroy(this.gameObject);
+    }
+
+    public void Matured()
+    {
+        FindObjectOfType<GUIManager>().DisplayEventbox(MaturedMessage, this);
+        GameObject.Destroy(this.gameObject);
     }
     public void ChooseNewDestination()
     {
