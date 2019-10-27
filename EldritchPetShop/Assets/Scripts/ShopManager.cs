@@ -92,6 +92,7 @@ public class ShopManager : MonoBehaviour
                     GUIMan.Money -= PriceSho;
                     //summon
                     newPet = GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumSho");
                 }
                 else
                 {
@@ -104,6 +105,7 @@ public class ShopManager : MonoBehaviour
                     GUIMan.Money -= PriceMig;
                     //summon
                     newPet = GameObject.Instantiate(MiGoPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumMig");
                 }
                 else
                 {
@@ -116,6 +118,7 @@ public class ShopManager : MonoBehaviour
                     GUIMan.Money -= PriceCth;
                     //summon
                     newPet = GameObject.Instantiate(CthuluPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumCth");
                 }
                 else
                 {
@@ -127,6 +130,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceHas;
                     newPet = GameObject.Instantiate(HasturPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumHas");
                     //summon
                 }
                 else
@@ -139,6 +143,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceShu;
                     newPet = GameObject.Instantiate(ShubPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumShu");
                     //summon
                 }
                 else
@@ -151,6 +156,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceAza;
                     newPet = GameObject.Instantiate(AzathothPrefab, SpawnLocation);
+                    FindObjectOfType<AudioManager>().Play("SumAza");
                     //summon
                 }
                 else
