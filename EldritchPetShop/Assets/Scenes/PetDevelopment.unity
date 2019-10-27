@@ -557,6 +557,13 @@ PrefabInstance:
       propertyPath: GUIMan
       value: 
       objectReference: {fileID: 527872920}
+    - target: {fileID: 7678649887843882873, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Cthulhu
+
+        $800,000'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee585257e57abe547ac9674f2950810c, type: 3}
 --- !u!1 &1498935539
@@ -1351,50 +1358,60 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MoneyDisplay
-      value: 
-      objectReference: {fileID: 305946219}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: RelicDisplay
-      value: 
-      objectReference: {fileID: 871416760}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AnimalDisplay
-      value: 
-      objectReference: {fileID: 250220259}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: HumanDisplay
-      value: 
-      objectReference: {fileID: 1562523685}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: EventPopupGUI
-      value: 
-      objectReference: {fileID: 1538171941}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: Money
-      value: 1000000000
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: Humans
-      value: 100
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: Animals
-      value: 100
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: Relics
-      value: 100
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -7203,6 +7220,9 @@ PrefabInstance:
       propertyPath: CthuluCultEvents.Array.data[8].money_A
       value: -50000
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+=======
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: Events.Array.data[27].eventType
@@ -9844,49 +9864,50 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+>>>>>>> master
         type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      propertyPath: MoneyDisplay
+      value: 
+      objectReference: {fileID: 305946219}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: RelicDisplay
+      value: 
+      objectReference: {fileID: 871416760}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AnimalDisplay
+      value: 
+      objectReference: {fileID: 250220259}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HumanDisplay
+      value: 
+      objectReference: {fileID: 1562523685}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: EventPopupGUI
+      value: 
+      objectReference: {fileID: 1538171941}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: Money
+      value: 1000000000
       objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
+      propertyPath: Humans
+      value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
+      propertyPath: Animals
+      value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      propertyPath: Relics
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f9e60937db3454098e7bf79c1a0596, type: 3}
@@ -9956,6 +9977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147198223583488138, guid: 0e6e8db1265c71a40be4cdd3f45e9f83,
+        type: 3}
+      propertyPath: petName
+      value: Cthulhu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6e8db1265c71a40be4cdd3f45e9f83, type: 3}
