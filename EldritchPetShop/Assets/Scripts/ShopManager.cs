@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShopManager : MonoBehaviour
 {
@@ -27,7 +29,8 @@ public class ShopManager : MonoBehaviour
 
     [Header("References")] 
     public GameObject ExitButton;
-
+    public InputField NameInput;
+    public GameObject LastPurchasedPet;
     public GUIManager GUIMan;
     public Transform SpawnLocation;
 
@@ -35,11 +38,29 @@ public class ShopManager : MonoBehaviour
     {
         Shop = this.gameObject;
         ShopButtons = (ShopButton[])GameObject.FindObjectsOfType(typeof(ShopButton));
+        NameInput.onEndEdit.AddListener(NameYourGod);
         CloseShop();
+    }
+
+    private void NameYourGod(string name)
+    {
+        PetController pc = LastPurchasedPet.GetComponent<PetController>();
+        pc.petName = name;
+        pc.Nametag.text = name;
+        
+        foreach (ShopButton sb in ShopButtons)
+        {
+            GameObject go = sb.gameObject;
+            go.SetActive(true);
+        }
+        NameInput.gameObject.SetActive(false);
+        ExitButton.SetActive(true);
+        ShopBook.SetActive(true);
     }
 
     public void OpenShop()
     {
+        Debug.Log("OpeningShop");
         foreach (ShopButton sb in ShopButtons)
         {
             GameObject go = sb.gameObject;
@@ -62,7 +83,7 @@ public class ShopManager : MonoBehaviour
     }
     public void Purchase(PetType pet)
     {
-        
+        GameObject newPet = null;
         switch (pet)
         {
             case (PetType.Shoggoth):
@@ -70,7 +91,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceSho;
                     //summon
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
                 }
                 else
                 {
@@ -82,7 +103,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceMig;
                     //summon
-                    GameObject.Instantiate(MiGoPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(MiGoPrefab, SpawnLocation);
                 }
                 else
                 {
@@ -94,7 +115,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceCth;
                     //summon
-                    GameObject.Instantiate(CthuluPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(CthuluPrefab, SpawnLocation);
                 }
                 else
                 {
@@ -105,7 +126,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceHas)
                 {
                     GUIMan.Money -= PriceHas;
-                    GameObject.Instantiate(HasturPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(HasturPrefab, SpawnLocation);
                     //summon
                 }
                 else
@@ -117,7 +138,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceShu)
                 {
                     GUIMan.Money -= PriceShu;
-                    GameObject.Instantiate(ShubPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(ShubPrefab, SpawnLocation);
                     //summon
                 }
                 else
@@ -129,7 +150,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceAza)
                 {
                     GUIMan.Money -= PriceAza;
-                    GameObject.Instantiate(AzathothPrefab, SpawnLocation);
+                    newPet = GameObject.Instantiate(AzathothPrefab, SpawnLocation);
                     //summon
                 }
                 else
@@ -139,5 +160,18 @@ public class ShopManager : MonoBehaviour
                 break;
         }
 
+        //Name the Pet
+        LastPurchasedPet = newPet;
+        foreach (ShopButton sb in ShopButtons)
+        {
+            GameObject go = sb.gameObject;
+            go.SetActive(false);
+        }
+        ExitButton.SetActive(false);
+        NameInput.gameObject.SetActive(true);
+        NameInput.text = LastPurchasedPet.GetComponent<PetController>().petName;
+        ShopBook.SetActive(false);
     }
+
+
 }

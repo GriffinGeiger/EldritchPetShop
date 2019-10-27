@@ -45,11 +45,8 @@ public class DragObject : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        Debug.Log("MouseEntered");
-      
         if(NameTag != null)
         {
-            Debug.Log("ShowingName");
             NameTag.SetActive(true);
         }
     }

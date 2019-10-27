@@ -97,7 +97,7 @@ public class PetController : MonoBehaviour
 
     [Header("World References")]
     public GameManager gm;
-
+    public TextMesh Nametag;
     // Start is called before the first frame update
     void Start()
     {
@@ -106,7 +106,7 @@ public class PetController : MonoBehaviour
         desireWeights.Add(Desire.Fight, fightWeight);
         desireWeights.Add(Desire.GoToCult, goToCultWeight);
         desireWeights.Add(Desire.GoToWorld, goToWorldWeight);
-        GetComponentInChildren<TextMesh>().text = petName;
+        Nametag.name = petName;
     }
 
     // Update is called once per frame

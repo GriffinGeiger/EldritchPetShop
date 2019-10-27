@@ -248,6 +248,7 @@ MonoBehaviour:
   goToWorldWeight: 0
   goToCultWeight: 0
   gm: {fileID: 0}
+  Nametag: {fileID: 6168722563809069629}
 --- !u!114 &5179108102921453590
 MonoBehaviour:
   m_ObjectHideFlags: 0
