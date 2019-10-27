@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7496821899251015719
 Transform:
   m_ObjectHideFlags: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   circleToCult: {fileID: 0}
   timescale: 1000
   Events:
-  - PetTypes: 00000000040000000300000001000000
+  - PetTypes: 000000000400000003000000
     eventType: 1
     eventText: \name destroyed a building!
     optionAText: Repay the citizens (-$10000) (-15% followers)
@@ -62,88 +62,88 @@ MonoBehaviour:
     percentageOfFollowers_B: -30
     reputation_B: 2
     money_B: 0
-  - PetTypes: 000000000100000003000000050000000200000004000000
+  - PetTypes: 00000000010000000300000002000000
     eventType: 0
-    eventText: \name grew angry with their cult and attacked it!
-    optionAText: Rebuke the cultists for their foolishness (-20% followers) (+ 1 Fear)
+    eventText: \name grew angry with their cult and slaughtered many of them.
+    optionAText: Rebuke the cultists for their foolishness (-30% followers) (+ 1 Fear)
     optionBText: Explain that it was all an accident and repay the cultists (-10%
-      followers) (-$5000)
-    percentageOfFollowers: -20
+      followers) (-$8000)
+    percentageOfFollowers: -30
     reputation: 1
     money: 0
     percentageOfFollowers_B: 10
     reputation_B: 0
-    money_B: -5000
-  - PetTypes: 05000000020000000300000004000000
+    money_B: -20000
+  - PetTypes: 0200000003000000
     eventType: 0
-    eventText: \name wants to gift their followers!
-    optionAText: Allow the gift to be given (-$5000) (+30% followers) (+2 Love)
+    eventText: \name wants to gift their followers.
+    optionAText: Allow the gift to be given (-$30000) (+30% followers) (+2 Love)
     optionBText: Don't allow the gift to be given (-5% followers)
     percentageOfFollowers: 30
     reputation: -2
+    money: -30000
+    percentageOfFollowers_B: -5
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 05000000
+    eventType: 2
+    eventText: \name wants to build a monument.
+    optionAText: Allow the monument to be built (-$5000) (+30% followers) (+1 Love)
+    optionBText: Do not allow it (-5% followers)
+    percentageOfFollowers: 30
+    reputation: -1
     money: -5000
     percentageOfFollowers_B: -5
     reputation_B: 0
     money_B: 0
-  - PetTypes: 030000000000000001000000
-    eventType: 2
-    eventText: \name wants to build a monument!
-    optionAText: Allow the monument o be built (-$5000) (+20% followers) (+1 Fear)
-    optionBText: Do not allow it (-5% followers)
-    percentageOfFollowers: -5000
-    reputation: 20
-    money: 1
-    percentageOfFollowers_B: -5
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0200000003000000
+  - PetTypes: 00000000030000000400000001000000
     eventType: 1
-    eventText: \name was framed for a murder!
-    optionAText: Pay \name's bail (-$10000) (-5% followers)
-    optionBText: Let \name break out on their own (+10% followers) (+3 Fear)
-    percentageOfFollowers: -10000
+    eventText: \name killed the king of a large nation.
+    optionAText: Repay the natiuon (-$25000)
+    optionBText: \name had to display their power (+30% followers) (+2 Fear)
+    percentageOfFollowers: -25000
     reputation: 0
-    money: -5
-    percentageOfFollowers_B: 10
-    reputation_B: 3
+    money: 0
+    percentageOfFollowers_B: 30
+    reputation_B: 2
     money_B: 0
   - PetTypes: 03000000
     eventType: 1
     eventText: \name rolled in his sleep!
     optionAText: Accept your fate (-$1000000) (+7 Fear)
-    optionBText: Fight back (-99% followers) (+7 Fear)
+    optionBText: Fight back (-50% followers) (+7 Fear)
     percentageOfFollowers: 0
     reputation: 7
     money: 1000000
-    percentageOfFollowers_B: -99
+    percentageOfFollowers_B: -50
     reputation_B: 0
     money_B: 7
-  - PetTypes: 0000000003000000
+  - PetTypes: 05000000
     eventType: 0
-    eventText: \name has been called!
-    optionAText: Call him back (-35% followers) (+3 Love)
-    optionBText: Set him free (-$20000) (+3 Fear)
-    percentageOfFollowers: -35
-    reputation: 3
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: -3
-    money_B: -20000
-  - PetTypes: 0500000003000000
+    eventText: \name wants to build a shrine.
+    optionAText: Let construction begin (-$5000) (+2 Love)
+    optionBText: Make \name very sad (-10% followers)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000040000000300000001000000
     eventType: 1
-    eventText: \name attacked a group of hikers!
-    optionAText: Cover the damages (-$10000) (-5% followers) (+3 Fear)
-    optionBText: Cover it up (-25% followers) (+1 Fear)
-    percentageOfFollowers: -5
-    reputation: -10000
-    money: 3
-    percentageOfFollowers_B: -25
+    eventText: \name terrorized a royal wedding
+    optionAText: They were not chosen (-10% followers) (+1 Fear)
+    optionBText: Kill all who saw (-40% followers) (+3 Fear)
+    percentageOfFollowers: -10
+    reputation: 1
+    money: 0
+    percentageOfFollowers_B: -40
     reputation_B: 3
     money_B: 0
   - PetTypes: 010000000300000000000000
     eventType: 0
-    eventText: \name joined the cult of Cthulhu!
-    optionAText: Allow \name to stay (+2 Love) (+30% followers)
+    eventText: \name was attacked for being weak.
+    optionAText: Take the hits (-50 )
     optionBText: Force \name to leave (+10% followers)
     percentageOfFollowers: 30
     reputation: -2
@@ -384,7 +384,7 @@ MonoBehaviour:
     reputation_B: -1
     money_B: 0
   AzathothWorldEvents:
-  - PetTypes: 00000000040000000300000001000000
+  - PetTypes: 000000000400000003000000
     eventType: 1
     eventText: \name destroyed a building!
     optionAText: Repay the citizens (-$10000) (-15% followers)
@@ -475,17 +475,149 @@ MonoBehaviour:
     money_B: -5000
   - PetTypes: 030000000500000002000000
     eventType: 1
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
+    eventText: \name is touring the city!
+    optionAText: 'Warn the locals (-5% followers) '
+    optionBText: Advertise \name's visit (+10% followers) (+1 Fear)
+    percentageOfFollowers: -5
     reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 1
+    money_B: 0
+  - PetTypes: 03000000040000000000000002000000
+    eventType: 1
+    eventText: \name is touring the world!
+    optionAText: Capitalize on the tour (+$10000) (-5% followers)
+    optionBText: Show off \name to everyone (+15% followers) (-$2000) (+1 Love)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 10000
+    percentageOfFollowers_B: 15
+    reputation_B: -1
+    money_B: -2000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000
+    eventType: 1
+    eventText: \name destroyed a nuclear power plant!
+    optionAText: Pay for the damages (-$5000) (-10% followers) (+2 Fear)
+    optionBText: Blame Russia (+10% followers) (+3 Love)
+    percentageOfFollowers: -10
+    reputation: 2
+    money: -5000
+    percentageOfFollowers_B: 10
+    reputation_B: -3
+    money_B: 0
+  - PetTypes: 030000000500000002000000
+    eventType: 1
+    eventText: \name stopped a nuclear bomb!
+    optionAText: Give the Credit (+3 Love) (+20% followers)
+    optionBText: Take the Credit (+$10000)
+    percentageOfFollowers: 20
+    reputation: -3
     money: 0
     percentageOfFollowers_B: 0
     reputation_B: 0
+    money_B: 10000
+  - PetTypes: 00000000040000000500000003000000
+    eventType: 1
+    eventText: \name found a talking flower!
+    optionAText: Kill it (+1 Love)
+    optionBText: Spare it (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 1000
+    percentageOfFollowers_B: 10
+    reputation_B: 0
     money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 02000000030000000000000005000000
+    eventType: 1
+    eventText: \name stopped an alien invasion!
+    optionAText: Celebrate the victory (-$5000) (+15% followers) (+2 Love)
+    optionBText: Warn about \name's power (+2 Fear)
+    percentageOfFollowers: 15
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 0200000003000000
+    eventType: 1
+    eventText: \name adopted an animal!
+    optionAText: Let \name keep it (-$5000) (+2 Love)
+    optionBText: Make \name let it go (-5% followers)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: -5
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000400000003000000
+    eventType: 1
+    eventText: \name terrorized a remote village!
+    optionAText: Pass of the rumors as legend (-15% followers)
+    optionBText: Spread the rumors to more people (+10% followers) (+2 Fear) (-$5000)
+    percentageOfFollowers: -15
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 2
+    money_B: -5000
   CthuluWorldEvents:
-  - PetTypes: 00000000040000000300000001000000
+  - PetTypes: 000000000400000003000000
     eventType: 1
     eventText: \name destroyed a building!
     optionAText: Repay the citizens (-$10000) (-15% followers)
@@ -530,18 +662,128 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
-  MiGoWorldEvents:
-  - PetTypes: 00000000040000000300000001000000
+  - PetTypes: 03000000040000000000000002000000
     eventType: 1
-    eventText: \name destroyed a building!
-    optionAText: Repay the citizens (-$10000) (-15% followers)
-    optionBText: Warn of \name's future wrath (-30% followers) (+2 fear)
-    percentageOfFollowers: -15
+    eventText: \name is touring the world!
+    optionAText: Capitalize on the tour (+$10000) (-5% followers)
+    optionBText: Show off \name to everyone (+15% followers) (-$2000) (+1 Love)
+    percentageOfFollowers: -5
     reputation: 0
-    money: -10000
-    percentageOfFollowers_B: -30
+    money: 10000
+    percentageOfFollowers_B: 15
+    reputation_B: -1
+    money_B: -2000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
     reputation_B: 2
     money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000
+    eventType: 1
+    eventText: \name destroyed a nuclear power plant!
+    optionAText: Pay for the damages (-$5000) (-10% followers) (+2 Fear)
+    optionBText: Blame Russia (+10% followers) (+3 Love)
+    percentageOfFollowers: -10
+    reputation: 2
+    money: -5000
+    percentageOfFollowers_B: 10
+    reputation_B: -3
+    money_B: 0
+  - PetTypes: 00000000040000000500000003000000
+    eventType: 1
+    eventText: \name found a talking flower!
+    optionAText: Kill it (+1 Love)
+    optionBText: Spare it (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 1000
+    percentageOfFollowers_B: 10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000200000005000000
+    eventType: 1
+    eventText: \name is feeling rational today.
+    optionAText: Go get a job (+$5000)
+    optionBText: Go get more followers (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 02000000030000000000000005000000
+    eventType: 1
+    eventText: \name stopped an alien invasion!
+    optionAText: Celebrate the victory (-$5000) (+15% followers) (+2 Love)
+    optionBText: Warn about \name's power (+2 Fear)
+    percentageOfFollowers: 15
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000400000003000000
+    eventType: 1
+    eventText: \name terrorized a remote village!
+    optionAText: Pass of the rumors as legend (-15% followers)
+    optionBText: Spread the rumors to more people (+10% followers) (+2 Fear) (-$5000)
+    percentageOfFollowers: -15
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 2
+    money_B: -5000
+  MiGoWorldEvents:
   - PetTypes: 030000000000000001000000
     eventType: 2
     eventText: \name wants to build a monument!
@@ -587,6 +829,83 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000
+    eventType: 1
+    eventText: \name destroyed a nuclear power plant!
+    optionAText: Pay for the damages (-$5000) (-10% followers) (+2 Fear)
+    optionBText: Blame Russia (+10% followers) (+3 Love)
+    percentageOfFollowers: -10
+    reputation: 2
+    money: -5000
+    percentageOfFollowers_B: 10
+    reputation_B: -3
+    money_B: 0
+  - PetTypes: 00000000010000000200000005000000
+    eventType: 1
+    eventText: \name is feeling rational today.
+    optionAText: Go get a job (+$5000)
+    optionBText: Go get more followers (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000400000003000000
+    eventType: 1
+    eventText: \name terrorized a remote village!
+    optionAText: Pass of the rumors as legend (-15% followers)
+    optionBText: Spread the rumors to more people (+10% followers) (+2 Fear) (-$5000)
+    percentageOfFollowers: -15
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 2
+    money_B: -5000
   HasturWorldEvents:
   - PetTypes: 0200000003000000
     eventType: 1
@@ -613,17 +932,116 @@ MonoBehaviour:
     money_B: 0
   - PetTypes: 030000000500000002000000
     eventType: 1
-    eventText: 
-    optionAText: 
-    optionBText: 
+    eventText: \name is touring the city!
+    optionAText: 'Warn the locals (-5% followers) '
+    optionBText: Advertise \name's visit (+10% followers) (+1 Fear)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 1
+    money_B: 0
+  - PetTypes: 03000000040000000000000002000000
+    eventType: 1
+    eventText: \name is touring the world!
+    optionAText: Capitalize on the tour (+$10000) (-5% followers)
+    optionBText: Show off \name to everyone (+15% followers) (-$2000) (+1 Love)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 10000
+    percentageOfFollowers_B: 15
+    reputation_B: -1
+    money_B: -2000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000500000002000000
+    eventType: 1
+    eventText: \name stopped a nuclear bomb!
+    optionAText: Give the Credit (+3 Love) (+20% followers)
+    optionBText: Take the Credit (+$10000)
+    percentageOfFollowers: 20
+    reputation: -3
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 10000
+  - PetTypes: 00000000010000000200000005000000
+    eventType: 1
+    eventText: \name is feeling rational today.
+    optionAText: Go get a job (+$5000)
+    optionBText: Go get more followers (+5% followers)
     percentageOfFollowers: 0
     reputation: 0
     money: 0
     percentageOfFollowers_B: 0
     reputation_B: 0
     money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 02000000030000000000000005000000
+    eventType: 1
+    eventText: \name stopped an alien invasion!
+    optionAText: Celebrate the victory (-$5000) (+15% followers) (+2 Love)
+    optionBText: Warn about \name's power (+2 Fear)
+    percentageOfFollowers: 15
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 0200000003000000
+    eventType: 1
+    eventText: \name adopted an animal!
+    optionAText: Let \name keep it (-$5000) (+2 Love)
+    optionBText: Make \name let it go (-5% followers)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: -5
+    reputation_B: 0
+    money_B: 0
   ShubWorldEvents:
-  - PetTypes: 00000000040000000300000001000000
+  - PetTypes: 000000000400000003000000
     eventType: 1
     eventText: \name destroyed a building!
     optionAText: Repay the citizens (-$10000) (-15% followers)
@@ -646,6 +1064,94 @@ MonoBehaviour:
     percentageOfFollowers_B: 20
     reputation_B: -1
     money_B: 0
+  - PetTypes: 03000000040000000000000002000000
+    eventType: 1
+    eventText: \name is touring the world!
+    optionAText: Capitalize on the tour (+$10000) (-5% followers)
+    optionBText: Show off \name to everyone (+15% followers) (-$2000) (+1 Love)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 10000
+    percentageOfFollowers_B: 15
+    reputation_B: -1
+    money_B: -2000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 00000000040000000500000003000000
+    eventType: 1
+    eventText: \name found a talking flower!
+    optionAText: Kill it (+1 Love)
+    optionBText: Spare it (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 1000
+    percentageOfFollowers_B: 10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000400000003000000
+    eventType: 1
+    eventText: \name terrorized a remote village!
+    optionAText: Pass of the rumors as legend (-15% followers)
+    optionBText: Spread the rumors to more people (+10% followers) (+2 Fear) (-$5000)
+    percentageOfFollowers: -15
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 2
+    money_B: -5000
   ShoggothWorldEvents:
   - PetTypes: 0500000003000000
     eventType: 1
@@ -683,14 +1189,91 @@ MonoBehaviour:
     money_B: -5000
   - PetTypes: 030000000500000002000000
     eventType: 1
-    eventText: 
-    optionAText: 
-    optionBText: 
+    eventText: \name is touring the city!
+    optionAText: 'Warn the locals (-5% followers) '
+    optionBText: Advertise \name's visit (+10% followers) (+1 Fear)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 10
+    reputation_B: 1
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000500000002000000
+    eventType: 1
+    eventText: \name stopped a nuclear bomb!
+    optionAText: Give the Credit (+3 Love) (+20% followers)
+    optionBText: Take the Credit (+$10000)
+    percentageOfFollowers: 20
+    reputation: -3
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 10000
+  - PetTypes: 00000000040000000500000003000000
+    eventType: 1
+    eventText: \name found a talking flower!
+    optionAText: Kill it (+1 Love)
+    optionBText: Spare it (+5% followers)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: 1000
+    percentageOfFollowers_B: 10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 00000000010000000200000005000000
+    eventType: 1
+    eventText: \name is feeling rational today.
+    optionAText: Go get a job (+$5000)
+    optionBText: Go get more followers (+5% followers)
     percentageOfFollowers: 0
     reputation: 0
     money: 0
     percentageOfFollowers_B: 0
     reputation_B: 0
+    money_B: 0
+  - PetTypes: 02000000030000000000000005000000
+    eventType: 1
+    eventText: \name stopped an alien invasion!
+    optionAText: Celebrate the victory (-$5000) (+15% followers) (+2 Love)
+    optionBText: Warn about \name's power (+2 Fear)
+    percentageOfFollowers: 15
+    reputation: -2
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: 2
     money_B: 0
   AzathothCultEvents:
   - PetTypes: 000000000100000003000000050000000200000004000000
@@ -782,775 +1365,82 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
-    money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
     percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
-    reputation_B: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
     money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
     percentageOfFollowers: 0
-    reputation: 0
+    reputation: -2
     money: 0
     percentageOfFollowers_B: 0
-    reputation_B: 0
+    reputation_B: 2
     money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
     reputation: 0
-    money: 0
+    money: -5000
     percentageOfFollowers_B: 0
-    reputation_B: 0
+    reputation_B: -1
     money_B: 0
-  - PetTypes: 0300000003000000
+  - PetTypes: 010000000500000003000000
     eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
+    eventText: \name's followers are going on strike!
+    optionAText: Give into their demands (-$10000)
+    optionBText: Fire them all (-15% following)
     percentageOfFollowers: 0
     reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
+    money: -10000
+    percentageOfFollowers_B: -15
     reputation_B: 0
     money_B: 0
-  - PetTypes: 0300000003000000
-    eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
     percentageOfFollowers: 0
-    reputation: 0
-    money: 0
-    percentageOfFollowers_B: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
     reputation_B: 0
     money_B: 0
-  - PetTypes: 0300000003000000
+  - PetTypes: 030000000000000002000000
     eventType: 0
-    eventText: 
-    optionAText: 
-    optionBText: 
-    percentageOfFollowers: 0
+    eventText: \name want to see thier friends!
+    optionAText: \name has to stay home (-5% followers)
+    optionBText: \name can go (5% followers) (+1 Love)
+    percentageOfFollowers: -5
     reputation: 0
     money: 0
     percentageOfFollowers_B: 0
-    reputation_B: 0
+    reputation_B: -1
     money_B: 0
   CthuluCultEvents:
   - PetTypes: 000000000100000003000000050000000200000004000000
@@ -1609,6 +1499,72 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 030000000000000002000000
+    eventType: 0
+    eventText: \name want to see thier friends!
+    optionAText: \name has to stay home (-5% followers)
+    optionBText: \name can go (5% followers) (+1 Love)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
   MiGoCultEvents:
   - PetTypes: 000000000100000003000000050000000200000004000000
     eventType: 0
@@ -1655,6 +1611,61 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 010000000500000003000000
+    eventType: 0
+    eventText: \name's followers are going on strike!
+    optionAText: Give into their demands (-$10000)
+    optionBText: Fire them all (-15% following)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: -10000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
   HasturCultEvents:
   - PetTypes: 000000000100000003000000050000000200000004000000
     eventType: 0
@@ -1678,6 +1689,61 @@ MonoBehaviour:
     money: -5000
     percentageOfFollowers_B: -5
     reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 030000000000000002000000
+    eventType: 0
+    eventText: \name want to see thier friends!
+    optionAText: \name has to stay home (-5% followers)
+    optionBText: \name can go (5% followers) (+1 Love)
+    percentageOfFollowers: -5
+    reputation: 0
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: -1
     money_B: 0
   ShubCultEvents:
   - PetTypes: 000000000100000003000000050000000200000004000000
@@ -1712,6 +1778,61 @@ MonoBehaviour:
     reputation: -2
     money: -10000
     percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 00000000040000000200000003000000
+    eventType: 2
+    eventText: \name wants better minions!
+    optionAText: Hire a new babysitter (-$5000) (+5% followers)
+    optionBText: Spend more time with your pet (+1 Love)
+    percentageOfFollowers: 5
+    reputation: 0
+    money: -5000
+    percentageOfFollowers_B: 0
+    reputation_B: -1
+    money_B: 0
+  - PetTypes: 03000000040000000100000000000000
+    eventType: 2
+    eventText: \name killed a herd of cattle!
+    optionAText: Repay the farmer (-$5000) (+1 Fear)
+    optionBText: Blame \name's followers (-15% followers)
+    percentageOfFollowers: 0
+    reputation: 1
+    money: -5000
+    percentageOfFollowers_B: -15
     reputation_B: 0
     money_B: 0
   ShoggothCultEvents:
@@ -1760,6 +1881,50 @@ MonoBehaviour:
     percentageOfFollowers_B: -10
     reputation_B: 0
     money_B: -5000
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: The Blood Moon has risen!
+    optionAText: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+    optionBText: Stop \name before any damage can be caused (-10% followers)
+    percentageOfFollowers: 50
+    reputation: 4
+    money: -10
+    percentageOfFollowers_B: -10
+    reputation_B: 0
+    money_B: 0
+  - PetTypes: 000000000100000002000000030000000400000005000000
+    eventType: 2
+    eventText: It is October 31st!
+    optionAText: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+    optionBText: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 1000
+    percentageOfFollowers_B: 5
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 030000000000000001000000020000000400000005000000
+    eventType: 2
+    eventText: It's Friday the 13th!
+    optionAText: Hunt down the murderers (+2 Love)
+    optionBText: Scare away the people (+2 Fear)
+    percentageOfFollowers: 0
+    reputation: -2
+    money: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 2
+    money_B: 0
+  - PetTypes: 010000000500000003000000
+    eventType: 0
+    eventText: \name's followers are going on strike!
+    optionAText: Give into their demands (-$10000)
+    optionBText: Fire them all (-15% following)
+    percentageOfFollowers: 0
+    reputation: 0
+    money: -10000
+    percentageOfFollowers_B: -15
+    reputation_B: 0
+    money_B: 0
 --- !u!114 &1767500902866936897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1788,10 +1953,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37bd3c193c3576a439f9751388b4d4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Money: 0
-  Humans: 0
-  Animals: 0
-  Relics: 0
+  Money: 1000000000
+  Humans: 100
+  Animals: 100
+  Relics: 100
   MoneyDisplay: {fileID: 0}
   RelicDisplay: {fileID: 0}
   AnimalDisplay: {fileID: 0}
