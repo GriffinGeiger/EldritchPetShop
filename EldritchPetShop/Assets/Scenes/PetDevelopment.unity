@@ -687,6 +687,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 431655731109586933, guid: 190acdd2a0314be489d076936c9cc8f6,
         type: 3}
+    - target: {fileID: 7678649888050209947, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7678649888033124270, guid: ee585257e57abe547ac9674f2950810c,
         type: 3}
       propertyPath: GUIMan
@@ -717,7 +722,8 @@ PrefabInstance:
       propertyPath: GUIMan
       value: 
       objectReference: {fileID: 527872920}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7678649888050209947, guid: ee585257e57abe547ac9674f2950810c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ee585257e57abe547ac9674f2950810c, type: 3}
 --- !u!1 &1498935539
 GameObject:
