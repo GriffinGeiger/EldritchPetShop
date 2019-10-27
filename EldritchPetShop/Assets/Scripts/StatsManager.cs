@@ -25,7 +25,7 @@ public class StatsManager : MonoBehaviour
         CurrentRep = controller.currentReputation;
         CurrentFollowers = controller.followers;
         DesiredRep = controller.preferredReputation;
-        Rate = controller.followersRate
+        Rate = controller.followersRate;
     }
 
     void Update()
