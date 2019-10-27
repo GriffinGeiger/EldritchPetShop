@@ -73,6 +73,7 @@ public class PetController : MonoBehaviour
     public float bobbingAmplitude;
     public float bobbingRate;
     public float matureAge;
+    public float healthFightDrainRate;
 
     [Header("Pet's Current Statuses")]
     public string petName;
@@ -80,7 +81,7 @@ public class PetController : MonoBehaviour
     public Reputation currentReputation;    //The reputation that this instance of the pet has
     public PetType petType;
     public PetLevel petLevel;
-    public int petHealth;
+    public float petHealth;
     public double followers;
     public double followersRate;
     [Header("Pet's Current Behavior")]
@@ -89,7 +90,8 @@ public class PetController : MonoBehaviour
     public Desire currentDesire;
     public float desireStrength;
     public bool currentlyLosingDesire; //Won't lose desire when paused or dragged
-    
+    bool initiatingFight = false;
+
     public Dictionary<Desire, int> desireWeights = new Dictionary<Desire, int>();
     [Header("Pet's Desire weights")]
     public int wanderWeight;
@@ -162,6 +164,10 @@ public class PetController : MonoBehaviour
                 desireStrength -= desireLossRate * Time.deltaTime;
         }
 
+        if(currentDesire == Desire.Fight && Vector3.Distance(transform.position,walkingDestination) <= .2f)
+        {
+            petHealth -= healthFightDrainRate * Time.deltaTime;
+        }
         //////////////////////////////Desire////////////////////////////////////
 
         transform.position += new Vector3(0f,Mathf.Sin(Time.time*bobbingRate)*bobbingAmplitude, 0f);
@@ -208,20 +214,61 @@ public class PetController : MonoBehaviour
             case Desire.Wander:
                 //Pick random wander spot
                 walkingDestination = gm.GenerateRandomWanderPoint();
+                initiatingFight = true;
                 break;
             case Desire.GoToWorld:
                 //Go to world spot
                 walkingDestination = gm.doorToWorld.transform.position;
+                initiatingFight = true;
                 break;
             case Desire.GoToCult:
                 //go to cult spot
                 walkingDestination = gm.circleToCult.transform.position;
+                initiatingFight = true;
                 break;
             case Desire.Fight:
                 //Meet with another pet to fight
+                if (initiatingFight)
+                {
+                    
+                    PetController opponent = FindFightingPartner();
+                    if (opponent == null)
+                    {
+                        desireStrength = 0;
+                        break;
+                    }
+                    desireStrength = 15;
+                    opponent.currentDesire = Desire.Fight;
+                    opponent.desireStrength = 15;
+                    walkingDestination = gm.GenerateRandomWanderPoint();
+                    opponent.walkingDestination = walkingDestination;
+                    initiatingFight = false;
+                    opponent.initiatingFight = false;
+                }
                 break;
             default:
                 break;
+        }
+    }
+    public PetController FindFightingPartner()
+    {
+        PetController[] pc = FindObjectsOfType<PetController>();
+        if(pc.Length <= 1)
+        {
+            return null;
+        }
+        else
+        {
+            PetController opponent = this;
+            int breakoutcount = 0;
+            while(opponent == this && breakoutcount < 100)
+            {
+                opponent = pc[Random.Range(0, pc.Length)];
+                breakoutcount++;
+            }
+            if (opponent == this)
+                return null;
+            return opponent;
         }
     }
 }
