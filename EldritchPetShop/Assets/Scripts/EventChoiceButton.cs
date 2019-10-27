@@ -16,7 +16,8 @@ public class EventChoiceButton : MonoBehaviour
         currentPet.currentReputation += optionA ? currentEntry.reputation_A : currentEntry.reputation_B;
         currentPet.petHealth += optionA ? currentEntry.health_A : currentEntry.health_B;
         EventPrompt.SetActive(false);
-        currentPet.desireStrength = 0;
+        currentPet.desireStrength = 5;
+        currentPet.currentDesire = Desire.Wander;
         GameManager.Resume();
     }
 }

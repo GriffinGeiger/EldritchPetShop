@@ -53,7 +53,7 @@ public class OfferingDispenser : MonoBehaviour, IPointerDownHandler
                 break;
             case Offering.Random:
                 return;
-                break;
+                
             default:
                 break;
         }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class StatsManager : MonoBehaviour
 {
     public string CurrentName;
-    public int CurrentHealth;
+    public float CurrentHealth;
     public Reputation CurrentRep;
     public double CurrentFollowers;
     public GameObject StatDisplays;
