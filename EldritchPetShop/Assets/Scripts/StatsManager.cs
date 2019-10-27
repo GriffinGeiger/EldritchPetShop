@@ -16,11 +16,16 @@ public class StatsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        CloseStats();
     }
 
-    public void ShowStats()
+    public void OpenStats()
     {
+        StatDisplays.SetActive(true);
+    }
 
+    public void CloseStats()
+    {
+        StatDisplays.SetActive(false);
     }
 }
