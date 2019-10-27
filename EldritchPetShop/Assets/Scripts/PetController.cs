@@ -100,6 +100,11 @@ public class PetController : MonoBehaviour
     [Header("World References")]
     public GameManager gm;
     public TextMesh Nametag;
+
+    [Header("Shub Use Only")]
+    public SpriteRenderer sprite;
+    public Sprite calm;
+    public Sprite angery;
     // Start is called before the first frame update
     void Start()
     {
@@ -114,6 +119,15 @@ public class PetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(petType == PetType.ShubNiggurath)
+        {
+            if (currentReputation >= (Reputation)5)
+            {
+                sprite.sprite = angery;
+            }
+            else
+                sprite.sprite = calm;
+        }
         //////////////////////////////Desire////////////////////////////////////
         //Choose new motive when desire runs out
         if(desireStrength <= 0)
