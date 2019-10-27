@@ -41,21 +41,21 @@ public class GUIManager : MonoBehaviour
     public void DisplayEventbox(EventEntry entry, string petName)
     {
         //Display textbox with text and two options as 2 buttons
-
+        
         //replace name text with monster name \name
-        entry.eventText.Replace("\name", petName.ToString());
-        entry.optionAText.Replace("\name", petName.ToString());
-        entry.optionBText.Replace("\name", petName.ToString());
+        string eventText = entry.eventText.Replace("\\name", petName.ToString());
+        string optionAText = entry.optionAText.Replace("\\name", petName.ToString());
+        string optionBText = entry.optionBText.Replace("\\name", petName.ToString());
 
         Text[] texts = EventPopupGUI.GetComponentsInChildren<Text>();
         foreach(Text t in texts)
         {
             if (t.gameObject.CompareTag("ButtonA"))
-                t.text = entry.optionAText;
+                t.text = optionAText;
             else if (t.gameObject.CompareTag("ButtonB"))
-                t.text = entry.optionBText;
+                t.text = optionBText;
             else if(t.gameObject.CompareTag("EventText"))
-                t.text = entry.eventText;
+                t.text = eventText;
         }
         
     }

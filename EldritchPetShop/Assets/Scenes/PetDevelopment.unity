@@ -625,6 +625,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EventPlatformType: 0
   gui: {fileID: 0}
+--- !u!1 &2074191941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5380010621040159597, guid: 1f84194d5cc4f6d4791e2efdb039a892,
+    type: 3}
+  m_PrefabInstance: {fileID: 4981404837173525675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1119182341818709042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3358,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MoneyDisplay
+      value: 
+      objectReference: {fileID: 1119182342877992359}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: RelicDisplay
+      value: 
+      objectReference: {fileID: 1119182343323106688}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AnimalDisplay
+      value: 
+      objectReference: {fileID: 1119182342894639126}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HumanDisplay
+      value: 
+      objectReference: {fileID: 1119182343637282409}
+    - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: EventPopupGUI
+      value: 
+      objectReference: {fileID: 2074191941}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f9e60937db3454098e7bf79c1a0596, type: 3}
 --- !u!1001 &7814584817888115271

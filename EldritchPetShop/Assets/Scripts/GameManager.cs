@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         //Fill EventEntry 
         foreach(EventEntry ee in Events)
         {
-            foreach(PetType et in ee.PetTypes)
+            foreach (PetType et in ee.PetTypes)
             {
                 if (ee.eventType == EventType.Cultist || ee.eventType == EventType.Both)
                 {
