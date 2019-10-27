@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 5179108102921453591}
   - component: {fileID: 5179108102921453590}
   - component: {fileID: 7388369076768498445}
+  - component: {fileID: -5382211464775587930}
   m_Layer: 8
   m_Name: Pet
   m_TagString: Untagged
@@ -237,7 +238,9 @@ MonoBehaviour:
   currentReputation: 2
   petType: 0
   petLevel: 1
+  petHealth: 0
   followers: 0
+  followersRate: 0
   currentLocation: 0
   walkingDestination: {x: 0, y: 0, z: 0}
   currentDesire: 0
@@ -278,3 +281,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameTag: {fileID: 3523544861829582045}
+--- !u!114 &-5382211464775587930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5179108102921453589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9f5628be5761b4daff720d89a6b885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentName: 
+  CurrentHealth: 0
+  CurrentRep: 0
+  CurrentFollowers: 0
+  StatDisplays: {fileID: 0}
+  StatValues: {fileID: 0}
+  controller: {fileID: 0}
+  DesiredRep: 0
+  Rate: 0
+  GM: {fileID: 0}

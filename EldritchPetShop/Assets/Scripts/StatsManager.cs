@@ -13,7 +13,7 @@ public class StatsManager : MonoBehaviour
     public PetController controller;
     public Reputation DesiredRep;
     public double Rate;
-
+    public GUIManager GM;
 
 
     // Start is called before the first frame update
@@ -25,7 +25,9 @@ public class StatsManager : MonoBehaviour
         CurrentRep = controller.currentReputation;
         CurrentFollowers = controller.followers;
         DesiredRep = controller.preferredReputation;
-        Rate = controller.followersRate;
+        //Rate = controller.followersRate;
+        Rate = 1;
+        GM = (GUIManager)FindObjectOfType(typeof(GUIManager));
     }
 
     void Update()
@@ -73,6 +75,7 @@ public class StatsManager : MonoBehaviour
                 CurrentFollowers += .5 * Rate * Time.deltaTime;
             }
         }
+        GM.Money += ((CurrentFollowers / 1000) * Time.deltaTime);
     }
 
     public void OpenStats()
