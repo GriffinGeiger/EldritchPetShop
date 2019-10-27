@@ -1403,61 +1403,6 @@ PrefabInstance:
       propertyPath: Relics
       value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothWorldEvents.Array.size
@@ -1761,22 +1706,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.size
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].PetTypes.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].PetTypes.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1801,17 +1746,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].PetTypes.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].PetTypes.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1866,7 +1811,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.size
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1876,17 +1821,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].PetTypes.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].PetTypes.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].PetTypes.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1896,7 +1841,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1906,7 +1851,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].PetTypes.Array.size
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1926,12 +1871,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].PetTypes.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -2096,17 +2041,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].PetTypes.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[6].PetTypes.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].PetTypes.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -2161,7 +2106,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].PetTypes.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -2176,17 +2121,27 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[1].PetTypes.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[2].PetTypes.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[3].PetTypes.Array.size
+      propertyPath: ShoggothCultEvents.Array.data[2].PetTypes.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[3].PetTypes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[4].PetTypes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[1].PetTypes.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5202,7 +5157,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].PetTypes.Array.data[0]
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5212,12 +5167,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].PetTypes.Array.data[2]
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].PetTypes.Array.data[3]
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5237,17 +5192,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].eventText
-      value: \name shows that they know all the cool gods.
+      value: \name sloppily ate their offerings
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].optionAText
-      value: Wow really? (+40% followers)
+      value: Ew (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].optionBText
-      value: No way! (+40% followers)
+      value: That's rude (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5267,27 +5222,27 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].percentageOfFollowers_B
-      value: 40
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].PetTypes.Array.data[0]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].PetTypes.Array.data[1]
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].PetTypes.Array.data[2]
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].PetTypes.Array.data[3]
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5307,17 +5262,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].eventText
-      value: \name's followers are going on strike.
+      value: \name destroyed an entire hospital.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].optionAText
-      value: Give into their demands (-$10000)
+      value: How could they? (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].optionBText
-      value: Fire them (-20% following)
+      value: They were helpless! (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5332,22 +5287,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].percentageOfFollowers_B
-      value: -20
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].reputation_B
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.data[1]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.data[2]
+      propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.data[1]
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.data[2]
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5372,17 +5327,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].eventText
-      value: \name sloppily ate their offerings
+      value: \name obliterates a mountain to impress their cult.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].optionAText
-      value: Ew (-10% followers) (+1 Fear)
+      value: They love it! (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].optionBText
-      value: That's rude (-10% followers) (+1 Fear)
+      value: They're so strong (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5392,22 +5347,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].reputation_B
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].PetTypes.Array.data[0]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[11].PetTypes.Array.data[1]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: AzathothCultEvents.Array.data[11].PetTypes.Array.data[2]
+      propertyPath: AzathothCultEvents.Array.data[11].PetTypes.Array.data[1]
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[11].PetTypes.Array.data[2]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5422,17 +5377,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].eventText
-      value: \name destroyed an entire hospital.
+      value: \name manipulates their body in incredible ways
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].optionAText
-      value: How could they? (-50% followers) (+3 Fear)
+      value: I have to follow them! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].optionBText
-      value: They were helpless! (-50% followers) (+3 Fear)
+      value: So H*cking cool! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5447,7 +5402,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].reputation_B
-      value: 3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5572,12 +5527,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].PetTypes.Array.data[1]
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].PetTypes.Array.data[2]
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5602,17 +5557,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].eventText
-      value: \name destroyed an entire hospital.
+      value: \name obliterates a mountain to impress their cult.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].optionAText
-      value: How could they? (-50% followers) (+3 Fear)
+      value: They love it! (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].optionBText
-      value: They were helpless! (-50% followers) (+3 Fear)
+      value: They're so strong (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5632,7 +5587,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].percentageOfFollowers_B
-      value: -50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5642,12 +5597,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].PetTypes.Array.data[2]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].PetTypes.Array.data[3]
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5667,17 +5622,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].eventText
-      value: \name obliterates a mountain to impress their cult.
+      value: \name manipulates their body in incredible ways
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].optionAText
-      value: They love it! (+30% followers) (+1 Love)
+      value: I have to follow them! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].optionBText
-      value: They're so strong (+30% followers) (+1 Love)
+      value: So H*cking cool! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -5692,12 +5647,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].percentageOfFollowers_B
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].reputation_B
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6197,7 +6152,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[2].eventText
-      value: \name was stabbed as a ritual.
+      value: \name was stabbed for a ritual.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6232,7 +6187,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].PetTypes.Array.data[1]
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6262,17 +6217,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].eventText
-      value: \name let all the cultists pet them.
+      value: \name accidentally broke the temple
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].optionAText
-      value: Followers approve (+25% followers) (+1 Love)
+      value: Pay to rebuild it (-$30000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].optionBText
-      value: Yay (+25% followers) (+1 Love)
+      value: \name was angered (-10% followers) (+2 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6287,22 +6242,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].percentageOfFollowers_B
-      value: 25
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].reputation_B
-      value: -1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].PetTypes.Array.data[0]
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].PetTypes.Array.data[2]
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6327,17 +6282,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].eventText
-      value: \name pleases the cultists.
+      value: \name's followers are going on strike.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].optionAText
-      value: Well that ni- (+30% followers) (+2 Love)
+      value: Give into their demands (-$10000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].optionBText
-      value: Wait what?? (+30% followers) (+2 Love)
+      value: Fire them (-20% following)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6347,22 +6302,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].reputation_B
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].PetTypes.Array.data[1]
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].PetTypes.Array.data[2]
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].PetTypes.Array.data[3]
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6372,17 +6327,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].eventText
-      value: \name accidentally broke the temple
+      value: \name sloppily ate their offerings
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].optionAText
-      value: Pay to rebuild it (-$30000)
+      value: Ew (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].optionBText
-      value: \name was angered (-10% followers) (+2 Fear)
+      value: That's rude (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6397,32 +6352,32 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].reputation_B
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].PetTypes.Array.data[0]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: HasturCultEvents.Array.data[6].PetTypes.Array.data[2]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: HasturCultEvents.Array.data[6].PetTypes.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: HasturCultEvents.Array.data[6].eventText
-      value: \name's followers are going on strike.
+      value: \name obliterates a mountain to impress their cult.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].optionAText
-      value: Give into their demands (-$10000)
+      value: They love it! (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].optionBText
-      value: Fire them (-20% following)
+      value: They're so strong (+30% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6432,17 +6387,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].reputation_B
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].PetTypes.Array.data[1]
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].PetTypes.Array.data[2]
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6467,17 +6422,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].eventText
-      value: \name manipulates their body in incredible ways
+      value: \name destroyed an entire hospital.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].optionAText
-      value: I have to follow them! (+25% followers) (+2 Love)
+      value: How could they? (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].optionBText
-      value: So H*cking cool! (+25% followers) (+2 Love)
+      value: They were helpless! (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6497,22 +6452,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].percentageOfFollowers_B
-      value: 25
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].PetTypes.Array.data[1]
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].PetTypes.Array.data[2]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].PetTypes.Array.data[3]
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6527,22 +6482,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].eventType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].eventText
-      value: It is October 31st!
+      value: \name manipulates their body in incredible ways
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].optionAText
-      value: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+      value: I have to follow them! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].optionBText
-      value: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+      value: So H*cking cool! (+25% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6557,12 +6512,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].percentageOfFollowers_B
-      value: 5
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[4].reputation_B
-      value: 2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6752,17 +6707,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].eventText
-      value: \name sloppily ate their offerings
+      value: \name got poked with many sticks.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].optionAText
-      value: Ew (-10% followers) (+1 Fear)
+      value: Ha ha! (-25% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].optionBText
-      value: That's rude (-10% followers) (+1 Fear)
+      value: Look at him jigglel! (-25% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -6782,7 +6737,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].percentageOfFollowers_B
-      value: -10
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8460,7 +8415,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[2].eventText
-      value: \name was stabbed as a ritual.
+      value: \name was stabbed for a ritual.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8540,52 +8495,52 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].PetTypes.Array.data[0]
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].PetTypes.Array.data[1]
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].PetTypes.Array.data[2]
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].eventText
-      value: \name let all the cultists pet them.
+      value: \name impresses the cultists.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].optionAText
-      value: Followers approve (+25% followers) (+1 Love)
+      value: The followers approve (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].optionBText
-      value: Yay (+25% followers) (+1 Love)
+      value: Dang look at them go  (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].percentageOfFollowers_A
-      value: 25
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].reputation_A
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].percentageOfFollowers_B
-      value: 25
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[4].reputation_B
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8595,37 +8550,37 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].eventText
-      value: \name pleases the cultists.
+      value: \name accidentally broke the temple
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].optionAText
-      value: Well that ni- (+30% followers) (+2 Love)
+      value: Pay to rebuild it (-$30000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].optionBText
-      value: Wait what?? (+30% followers) (+2 Love)
+      value: \name was angered (-10% followers) (+2 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].percentageOfFollowers_A
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].reputation_A
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].percentageOfFollowers_B
-      value: 30
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[5].reputation_B
-      value: -2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8635,7 +8590,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[6].PetTypes.Array.data[1]
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8645,17 +8600,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[6].eventText
-      value: \name impresses the cultists.
+      value: \name shows that they know all the cool gods.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[6].optionAText
-      value: The followers approve (+40% followers)
+      value: Wow really? (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[6].optionBText
-      value: Dang look at them go  (+40% followers)
+      value: No way! (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8675,7 +8630,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].PetTypes.Array.data[1]
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8685,27 +8640,27 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].eventText
-      value: \name accidentally broke the temple
+      value: \name's followers are going on strike.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].optionAText
-      value: Pay to rebuild it (-$30000)
+      value: Give into their demands (-$10000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].optionBText
-      value: \name was angered (-10% followers) (+2 Fear)
+      value: Fire them (-20% following)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].money_A
-      value: -30000
+      value: -10000
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[7].reputation_B
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8715,47 +8670,47 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[8].percentageOfFollowers_A
-      value: 40
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[9].money_A
-      value: -10000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: AzathothCultEvents.Array.data[10].PetTypes.Array.data[0]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[10].percentageOfFollowers_A
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[10].reputation_A
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[10].percentageOfFollowers_B
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[11].percentageOfFollowers_A
-      value: -50
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: AzathothCultEvents.Array.data[11].reputation_A
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: AzathothCultEvents.Array.data[10].percentageOfFollowers_A
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[10].reputation_A
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[10].percentageOfFollowers_B
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[11].percentageOfFollowers_A
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[11].reputation_A
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: AzathothCultEvents.Array.data[11].percentageOfFollowers_B
-      value: -50
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8871,7 +8826,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].PetTypes.Array.data[0]
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8881,42 +8836,42 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].PetTypes.Array.data[3]
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].eventText
-      value: \name pleases the cultists.
+      value: \name impresses the cultists.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].optionAText
-      value: Well that ni- (+30% followers) (+2 Love)
+      value: The followers approve (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].optionBText
-      value: Wait what?? (+30% followers) (+2 Love)
+      value: Dang look at them go  (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].percentageOfFollowers_A
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].reputation_A
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].percentageOfFollowers_B
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[2].reputation_B
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8926,42 +8881,42 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].PetTypes.Array.data[1]
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: CthuluCultEvents.Array.data[3].PetTypes.Array.data[3]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: CthuluCultEvents.Array.data[3].PetTypes.Array.data[3]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].eventText
-      value: \name impresses the cultists.
+      value: \name sloppily ate their offerings
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].optionAText
-      value: The followers approve (+40% followers)
+      value: Ew (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].optionBText
-      value: Dang look at them go  (+40% followers)
+      value: That's rude (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].percentageOfFollowers_A
-      value: 40
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[3].percentageOfFollowers_B
-      value: 40
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].PetTypes.Array.data[0]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -8981,32 +8936,32 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].eventText
-      value: \name sloppily ate their offerings
+      value: \name destroyed an entire hospital.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].optionAText
-      value: Ew (-10% followers) (+1 Fear)
+      value: How could they? (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].optionBText
-      value: That's rude (-10% followers) (+1 Fear)
+      value: They were helpless! (-50% followers) (+3 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].percentageOfFollowers_A
-      value: -10
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].reputation_A
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[4].reputation_B
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9016,22 +8971,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].PetTypes.Array.data[0]
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].percentageOfFollowers_A
-      value: -50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].reputation_A
-      value: 3
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[5].reputation_B
-      value: 3
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9041,12 +8996,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].percentageOfFollowers_A
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluCultEvents.Array.data[6].reputation_A
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9353,42 +9308,42 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].percentageOfFollowers_A
-      value: 25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[3].reputation_A
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].PetTypes.Array.data[1]
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].percentageOfFollowers_A
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].reputation_A
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[4].percentageOfFollowers_B
-      value: 30
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].PetTypes.Array.data[0]
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[5].money_A
-      value: -30000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9398,17 +9353,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].PetTypes.Array.data[1]
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].money_A
-      value: -10000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: HasturCultEvents.Array.data[6].percentageOfFollowers_B
-      value: -20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9508,7 +9463,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].PetTypes.Array.data[0]
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9528,37 +9483,37 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].eventText
-      value: \name pleases the cultists.
+      value: \name let all the cultists pet them.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].optionAText
-      value: Well that ni- (+30% followers) (+2 Love)
+      value: Followers approve (+25% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].optionBText
-      value: Wait what?? (+30% followers) (+2 Love)
+      value: Yay (+25% followers) (+1 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].percentageOfFollowers_A
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].reputation_A
-      value: -2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].percentageOfFollowers_B
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[0].reputation_B
-      value: -2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9568,7 +9523,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].PetTypes.Array.data[0]
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9588,27 +9543,27 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].eventText
-      value: \name impresses the cultists.
+      value: \name pleases the cultists.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].optionAText
-      value: The followers approve (+40% followers)
+      value: Well that ni- (+30% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].optionBText
-      value: Dang look at them go  (+40% followers)
+      value: Wait what?? (+30% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].percentageOfFollowers_A
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].percentageOfFollowers_B
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9618,67 +9573,67 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].PetTypes.Array.data[1]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShubCultEvents.Array.data[2].PetTypes.Array.data[3]
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: ShubCultEvents.Array.data[2].PetTypes.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: ShubCultEvents.Array.data[2].eventText
-      value: \name destroyed an entire hospital.
+      value: \name impresses the cultists.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].optionAText
-      value: How could they? (-50% followers) (+3 Fear)
+      value: The followers approve (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].optionBText
-      value: They were helpless! (-50% followers) (+3 Fear)
+      value: Dang look at them go  (+40% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].percentageOfFollowers_A
-      value: -50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].reputation_A
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].percentageOfFollowers_B
-      value: -50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[2].reputation_B
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].PetTypes.Array.data[0]
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].percentageOfFollowers_A
-      value: 25
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].reputation_A
-      value: -2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[3].reputation_B
-      value: -2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9693,7 +9648,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[0].eventText
-      value: \name was stabbed as a ritual.
+      value: \name was stabbed for a ritual.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9728,7 +9683,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[1].PetTypes.Array.data[0]
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9743,67 +9698,67 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[1].eventText
-      value: \name let all the cultists pet them.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].optionAText
-      value: Followers approve (+25% followers) (+1 Love)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].optionBText
-      value: Yay (+25% followers) (+1 Love)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].percentageOfFollowers_A
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].reputation_A
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].percentageOfFollowers_B
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[1].reputation_B
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[2].PetTypes.Array.data[0]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[2].eventText
       value: \name was called ugly.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[2].optionAText
+      propertyPath: ShoggothCultEvents.Array.data[1].optionAText
       value: Buy them ice cream (-$5000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: ShoggothCultEvents.Array.data[2].optionBText
+      propertyPath: ShoggothCultEvents.Array.data[1].optionBText
       value: They need to get over it (-20 health) (-10% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].percentageOfFollowers_A
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].reputation_A
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].percentageOfFollowers_B
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].reputation_B
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[2].PetTypes.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[2].eventText
+      value: \name's followers are going on strike.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[2].optionAText
+      value: Give into their demands (-$10000)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[2].optionBText
+      value: Fire them (-20% following)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: ShoggothCultEvents.Array.data[2].money_A
-      value: -5000
+      value: -10000
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[2].percentageOfFollowers_B
-      value: -10
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9813,7 +9768,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[2].health_B
-      value: -20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9823,12 +9778,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].PetTypes.Array.data[1]
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].PetTypes.Array.data[2]
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9838,27 +9793,27 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].eventText
-      value: \name's followers are going on strike.
+      value: \name sloppily ate their offerings
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].optionAText
-      value: Give into their demands (-$10000)
+      value: Ew (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].optionBText
-      value: Fire them (-20% following)
+      value: That's rude (-10% followers) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].money_A
-      value: -10000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[3].percentageOfFollowers_B
-      value: -20
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9868,22 +9823,22 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].PetTypes.Array.data[0]
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].percentageOfFollowers_A
-      value: -10
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].reputation_A
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[4].reputation_B
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9894,6 +9849,226 @@ PrefabInstance:
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[5].percentageOfFollowers_A
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: Events.Array.data[15].optionAText
+      value: Well that's nice (+30% followers) (+2 Love)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[4].PetTypes.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[5].PetTypes.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[5].money_A
+      value: -30000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[7].PetTypes.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[7].PetTypes.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[7].percentageOfFollowers_B
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[8].reputation_A
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[8].reputation_B
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[9].percentageOfFollowers_A
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothCultEvents.Array.data[9].reputation_A
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluCultEvents.Array.data[3].PetTypes.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluCultEvents.Array.data[3].reputation_A
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluCultEvents.Array.data[3].reputation_B
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluCultEvents.Array.data[4].PetTypes.Array.data[3]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluCultEvents.Array.data[4].percentageOfFollowers_B
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[3].money_A
+      value: -30000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[4].money_A
+      value: -10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[5].percentageOfFollowers_A
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[5].reputation_A
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[6].percentageOfFollowers_A
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: HasturCultEvents.Array.data[6].reputation_A
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[1].reputation_A
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[1].reputation_B
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[4].PetTypes.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[4].percentageOfFollowers_A
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubCultEvents.Array.data[4].reputation_A
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].money_A
+      value: -5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[1].health_B
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[2].PetTypes.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[3].percentageOfFollowers_A
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[3].reputation_A
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShoggothCultEvents.Array.data[3].reputation_B
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015719, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f9e60937db3454098e7bf79c1a0596, type: 3}
@@ -9908,6 +10083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cthulu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147198223583488136, guid: 0e6e8db1265c71a40be4cdd3f45e9f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3686013621424635277, guid: 0e6e8db1265c71a40be4cdd3f45e9f83,
         type: 3}
