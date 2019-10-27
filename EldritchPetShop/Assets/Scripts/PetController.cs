@@ -196,7 +196,7 @@ public class PetController : MonoBehaviour
                 desireStrength -= desireLossRate * Time.deltaTime;
         }
 
-        if(currentDesire == Desire.Fight && Vector3.Distance(transform.position,walkingDestination) <= .2f)
+        if(currentDesire == Desire.Fight && Vector3.Distance(transform.position,walkingDestination) <= .2f && !gm.isPaused)
         {
             petHealth -= healthFightDrainRate * Time.deltaTime;
         }
