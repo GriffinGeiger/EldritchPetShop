@@ -51,56 +51,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Azathoth Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: petName
-      value: Azathoth
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: currentReputation
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: petType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: petLevel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: currentLocation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: currentlyLosingDesire
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: wanderWeight
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: fightWeight
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: goToWorldWeight
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: goToCultWeight
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -156,6 +106,101 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: petName
+      value: Azathoth
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: currentReputation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: petType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: petLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: currentLocation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: currentlyLosingDesire
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: wanderWeight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: fightWeight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: goToWorldWeight
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: goToCultWeight
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: appeaseStrength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireLossRate
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireFastDropDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: preferredOffering
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: preferredReputation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: preferredLocation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireLowEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireHighEnd
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: temper
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5179108102921453590, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: speed
@@ -182,15 +227,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 98c1ad3f01c33ee4a997dbbca91f338d,
         type: 3}
-    - target: {fileID: 3232388464373494034, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3523544861829582045, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232388464373494034, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 6168722563809069629, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
