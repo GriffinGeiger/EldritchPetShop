@@ -928,6 +928,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 849036638849992202, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 849036638849992202, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1726434602458692549, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -957,16 +967,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 849036638849992202, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 849036638849992202, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 679999654061969602, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
         type: 3}
@@ -2646,7 +2646,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluWorldEvents.Array.data[5].money
-      value: -10
+      value: -25000
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
