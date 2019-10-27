@@ -11,7 +11,7 @@ public class DragObject : MonoBehaviour
     public GameObject NameTag;
     private void Start()
     {
-        NameTag.GetComponent<Renderer>().sortingLayerName = "Pets";"
+        NameTag.GetComponent<Renderer>().sortingLayerName = "Pets";
     }
     void OnMouseDown()
     {
