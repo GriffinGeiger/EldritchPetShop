@@ -104,7 +104,11 @@ public class PetController : MonoBehaviour
     [Header("World References")]
     public GameManager gm;
     public TextMesh Nametag;
+    public StatsManager sm;
+    public DragObject drag;
 
+    [Header("Prefab Refs")]
+    public GameObject StatsPage;
     [Header("Shub Use Only")]
     public SpriteRenderer sprite;
     public Sprite calm;
@@ -119,15 +123,31 @@ public class PetController : MonoBehaviour
         desireWeights.Add(Desire.GoToCult, goToCultWeight);
         desireWeights.Add(Desire.GoToWorld, goToWorldWeight);
         Nametag.name = petName;
+        
     }
+    private void Awake()
+    {
+        gm = FindObjectOfType<GameManager>();
+        sm.StatDisplays = GameObject.Instantiate(StatsPage, FindObjectOfType<Canvas>().transform);
+        sm.StatDisplays.GetComponent<StatsManager>().controller = this;
+        //sm.StatDisplays.SetActive(false);
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (drag.mouseOver && Input.GetMouseButtonDown(1))
+        {
+            Debug.Log("openingStats");
+            sm.OpenStats();
+        }
+
         if (petHealth <= 0)
             Die();
-        age += 1000 * Time.deltaTime;
+        if(!gm.isPaused)
+            age += 1000 * Time.deltaTime;
         if(age >= matureAge)
         {
             Matured();
@@ -288,6 +308,8 @@ public class PetController : MonoBehaviour
             while(opponent == this && breakoutcount < 100)
             {
                 opponent = pc[Random.Range(0, pc.Length)];
+                if (opponent.currentDesire == Desire.Fight)
+                    continue;
                 breakoutcount++;
             }
             if (opponent == this)

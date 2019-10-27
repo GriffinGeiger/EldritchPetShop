@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public List<EventEntry> HasturCultEvents;
     public List<EventEntry> ShubCultEvents;
     public List<EventEntry> ShoggothCultEvents;
+    public bool isPaused;
 
     void Start()
     {
@@ -117,6 +118,7 @@ public class GameManager : MonoBehaviour
         {
             drag.enabled = false;
         }
+        FindObjectOfType<GameManager>().isPaused = true;
     }
     public static void Resume()
     {
@@ -132,6 +134,7 @@ public class GameManager : MonoBehaviour
         {
             drag.enabled = true;
         }
+        FindObjectOfType<GameManager>().isPaused = false;
     }
 
     public Vector3 GenerateRandomWanderPoint()

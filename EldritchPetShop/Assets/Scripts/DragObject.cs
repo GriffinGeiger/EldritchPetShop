@@ -11,6 +11,7 @@ public class DragObject : MonoBehaviour
     public GameObject NameTag;
     public bool isOffering;
     public GameObject offeringDisplay;
+    public bool mouseOver = false;
 
     void Start()
     {
@@ -36,6 +37,8 @@ public class DragObject : MonoBehaviour
             }
         }
     }
+
+    
     void OnMouseUp()
     {
         if (enabled)
@@ -65,6 +68,7 @@ public class DragObject : MonoBehaviour
             {
                 NameTag.SetActive(true);
             }
+            mouseOver = true;
         }
     }
     private void OnMouseExit()
@@ -75,6 +79,7 @@ public class DragObject : MonoBehaviour
             {
                 NameTag.SetActive(false);
             }
+            mouseOver = false;
         }
 
     }
