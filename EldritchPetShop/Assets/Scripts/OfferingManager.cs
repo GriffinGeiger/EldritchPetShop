@@ -16,8 +16,8 @@ public class OfferingManager : MonoBehaviour
     public GUIManager GM;
     void Start()
     {
-        Followers = controller.followers;
-        Reputation = controller.currentReputation;
+      //  Followers = controller.followers;
+      // Reputation = controller.currentReputation;
         DeltaTime = rnd.Next(30, 61);
         GM = (GUIManager)GameObject.FindObjectOfType(typeof(GUIManager));
     }

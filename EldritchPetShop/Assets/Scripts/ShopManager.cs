@@ -55,8 +55,9 @@ public class ShopManager : MonoBehaviour
         OpenShopButton.SetActive(true);
         ShopBook.SetActive(false);
     }
-    public void Purchase(PetType pet)
+    public void Purchase()
     {
+        PetType pet = PetType.Cthulu;
         switch (pet)
         {
             case (PetType.Shoggoth):
@@ -76,7 +77,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceMig;
                     //summon
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    GameObject.Instantiate(MiGoPrefab, SpawnLocation);
                 }
                 else
                 {
@@ -88,7 +89,7 @@ public class ShopManager : MonoBehaviour
                 {
                     GUIMan.Money -= PriceCth;
                     //summon
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    GameObject.Instantiate(CthuluPrefab, SpawnLocation);
                 }
                 else
                 {
@@ -99,7 +100,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceHas)
                 {
                     GUIMan.Money -= PriceHas;
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    GameObject.Instantiate(HasturPrefab, SpawnLocation);
                     //summon
                 }
                 else
@@ -111,7 +112,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceShu)
                 {
                     GUIMan.Money -= PriceShu;
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    GameObject.Instantiate(ShubPrefab, SpawnLocation);
                     //summon
                 }
                 else
@@ -123,7 +124,7 @@ public class ShopManager : MonoBehaviour
                 if (GUIMan.Money >= PriceAza)
                 {
                     GUIMan.Money -= PriceAza;
-                    GameObject.Instantiate(ShoggothPrefab, SpawnLocation);
+                    GameObject.Instantiate(AzathothPrefab, SpawnLocation);
                     //summon
                 }
                 else

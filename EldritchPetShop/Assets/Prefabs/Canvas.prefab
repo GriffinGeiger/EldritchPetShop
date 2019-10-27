@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 7678649887084942351}
   - component: {fileID: 7678649887084942350}
   m_Layer: 5
-  m_Name: Canvas 1
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Cth
+  PetType: 0
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Shu
+  PetType: 4
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Aza
+  PetType: 3
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7678649888033124270}
+      - m_Target: {fileID: 7678649888235973976}
         m_MethodName: Purchase
         m_Mode: 1
         m_Arguments:
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Sho
+  PetType: 5
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -2165,7 +2165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 0
-  GodName: 
+  PetType: 0
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: Exit
@@ -2388,6 +2388,15 @@ MonoBehaviour:
   PriceHas: 1000000
   PriceShu: 2000000
   PriceAza: 10000000
+  CthuluPrefab: {fileID: 3147198223583488136, guid: 0e6e8db1265c71a40be4cdd3f45e9f83,
+    type: 3}
+  MiGoPrefab: {fileID: 0}
+  HasturPrefab: {fileID: 0}
+  AzathothPrefab: {fileID: 0}
+  ShubPrefab: {fileID: 0}
+  ShoggothPrefab: {fileID: 0}
+  GUIMan: {fileID: 0}
+  SpawnLocation: {fileID: 0}
 --- !u!1 &7678649888566788683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,7 +2892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Has
+  PetType: 2
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -3031,7 +3040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  GodName: Mig
+  PetType: 1
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -3047,6 +3056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EventPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5380010621040159597, guid: 1f84194d5cc4f6d4791e2efdb039a892,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5380010621040159586, guid: 1f84194d5cc4f6d4791e2efdb039a892,
         type: 3}

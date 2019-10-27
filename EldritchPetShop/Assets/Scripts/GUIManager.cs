@@ -17,10 +17,7 @@ public class GUIManager : MonoBehaviour
 
     void Start()
     {
-        Money = 150000;
-        Humans = 1;
-        Animals = 2;
-        Relics = 3;
+
     }
 
     

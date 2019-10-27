@@ -6,7 +6,7 @@ public class ShopButton : MonoBehaviour
 {
     public float Price;
     //public int Owned;
-    public string GodName;
+    public PetType PetType;
     //public PetController PC;
     //public bool hidden;
     public ShopManager SM;
@@ -14,6 +14,7 @@ public class ShopButton : MonoBehaviour
     public string ButtonType;
     //public GameObject Pet;
 
+    [HideInInspector]
     public GUIManager GUIMan;
 
     void Start()
