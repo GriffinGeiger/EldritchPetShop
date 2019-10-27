@@ -234,13 +234,14 @@ MonoBehaviour:
   bobbingAmplitude: 0
   bobbingRate: 0
   matureAge: 0
+  healthFightDrainRate: 2
   petName: Cthulu
   age: 0
   currentReputation: 2
   petType: 0
   petLevel: 1
-  petHealth: 0
-  followers: 0
+  petHealth: 100
+  followers: 1000
   followersRate: 0
   currentLocation: 0
   walkingDestination: {x: 0, y: 0, z: 0}
