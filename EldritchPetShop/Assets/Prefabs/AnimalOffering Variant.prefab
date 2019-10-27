@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 6209748774276403750, guid: 32f4868b7590f2348b4bb9bb4284fd5c,
         type: 3}
       propertyPath: m_Name
-      value: AnimalOffering
+      value: AnimalOffering Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6209748774276403746, guid: 32f4868b7590f2348b4bb9bb4284fd5c,
         type: 3}
@@ -92,6 +92,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: -0.026159883
+      objectReference: {fileID: 0}
+    - target: {fileID: 431041593788895383, guid: 32f4868b7590f2348b4bb9bb4284fd5c,
+        type: 3}
+      propertyPath: offeringType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32f4868b7590f2348b4bb9bb4284fd5c, type: 3}

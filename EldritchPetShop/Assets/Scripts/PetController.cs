@@ -81,7 +81,8 @@ public class PetController : MonoBehaviour
     public PetType petType;
     public PetLevel petLevel;
     public int petHealth;
-    public double followers;
+    public double 
+        ;
     public double followersRate;
     [Header("Pet's Current Behavior")]
     public Location currentLocation;

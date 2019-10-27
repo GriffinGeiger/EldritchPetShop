@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6209748774276403746}
   - component: {fileID: 6209748774276403749}
-  - component: {fileID: 6209748774276403748}
   - component: {fileID: 6209748774276403751}
-  m_Layer: 0
+  - component: {fileID: 431041593788895383}
+  - component: {fileID: 931083441}
+  m_Layer: 10
   m_Name: HumanOffering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,19 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &6209748774276403748
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6209748774276403750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.6599998, y: 4.2799997, z: 0.19999999}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6209748774276403751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,3 +98,29 @@ MonoBehaviour:
   NameTag: {fileID: 0}
   isOffering: 1
   offeringDisplay: {fileID: 0}
+--- !u!114 &431041593788895383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209748774276403750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e793693064410e4283f909ecbc4bf22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offeringType: 0
+--- !u!65 &931083441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209748774276403750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.66, y: 4.28, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

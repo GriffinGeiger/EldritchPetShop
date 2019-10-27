@@ -111,14 +111,16 @@ public class EventEntry
     public string optionAText;
     public string optionBText;
     [Header("OptionA Effects")]
-    public double percentageOfFollowers;   //Positive gains followers, negative loses
-    public int reputation;                 //Positive means more feared, negative makes it less feared
-    public double money;                   //Positive or negative
+    public double percentageOfFollowers_A;   //Positive gains followers, negative loses
+    public int reputation_A;                 //Positive means more feared, negative makes it less feared
+    public double money_A;                   //Positive or negative
+    public int health_A;
 
     [Header("OptionB Effects")]
     public double percentageOfFollowers_B;   //Positive gains followers, negative loses
     public int reputation_B;                 //Positive means more feared, negative makes it less feared
     public double money_B;                   //Positive or negative
+    public int health_B;
 
     public EventEntry Clone()
     {
