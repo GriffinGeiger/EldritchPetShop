@@ -61,6 +61,7 @@ public class ShopManager : MonoBehaviour
     public void OpenShop()
     {
         Debug.Log("OpeningShop");
+        GameManager.Pause();
         foreach (ShopButton sb in ShopButtons)
         {
             GameObject go = sb.gameObject;
@@ -69,9 +70,11 @@ public class ShopManager : MonoBehaviour
         OpenShopButton.SetActive(false);
         ShopBook.SetActive(true);
         ExitButton.SetActive(true);
+        
     }
     public void CloseShop()
     {
+        GameManager.Resume();
         foreach (ShopButton sb in ShopButtons)
         {
             GameObject go = sb.gameObject;
@@ -80,6 +83,7 @@ public class ShopManager : MonoBehaviour
         OpenShopButton.SetActive(true);
         ShopBook.SetActive(false);
         ExitButton.SetActive(false);
+        
     }
     public void Purchase(PetType pet)
     {
