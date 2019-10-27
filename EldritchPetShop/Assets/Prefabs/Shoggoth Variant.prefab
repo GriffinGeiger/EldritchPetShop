@@ -26,6 +26,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameTag: {fileID: 2215532728421855233}
+  isOffering: 0
+  offeringDisplay: {fileID: 0}
 --- !u!1001 &3339702957386464476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122,6 +124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: currentReputation
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: followersRate
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
