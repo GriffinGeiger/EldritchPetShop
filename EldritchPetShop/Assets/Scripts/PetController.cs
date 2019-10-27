@@ -81,8 +81,7 @@ public class PetController : MonoBehaviour
     public PetType petType;
     public PetLevel petLevel;
     public int petHealth;
-    public double 
-        ;
+    public double followers;
     public double followersRate;
     [Header("Pet's Current Behavior")]
     public Location currentLocation;
@@ -168,6 +167,19 @@ public class PetController : MonoBehaviour
             }
             else
                 desireStrength -= appeaseStrength;
+        }
+        
+        if(preferredOffering == offer)
+        {
+            Debug.Log("Healing " + petName + "Fully");
+            petHealth = 100;
+        }
+        else
+        {
+            Debug.Log("Healing " + petName + "25 points");
+            petHealth += 25;
+            if (petHealth > 100)
+                petHealth = 100;
         }
     }
     public void CompletedDesire()
