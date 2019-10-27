@@ -242,6 +242,8 @@ MonoBehaviour:
   spawnLocation: {fileID: 0}
   mainCam: {fileID: 0}
   offeringDisplay: {fileID: 5575233981924940162}
+  GUI: {fileID: 0}
+  offeringType: 2
 --- !u!1 &5575233981924940162
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +491,8 @@ MonoBehaviour:
   spawnLocation: {fileID: 0}
   mainCam: {fileID: 0}
   offeringDisplay: {fileID: 5575233981924940162}
+  GUI: {fileID: 0}
+  offeringType: 0
 --- !u!1 &6727258245063223820
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +584,8 @@ MonoBehaviour:
   spawnLocation: {fileID: 0}
   mainCam: {fileID: 0}
   offeringDisplay: {fileID: 5575233981924940162}
+  GUI: {fileID: 0}
+  offeringType: 1
 --- !u!1 &7137941115617439033
 GameObject:
   m_ObjectHideFlags: 0
