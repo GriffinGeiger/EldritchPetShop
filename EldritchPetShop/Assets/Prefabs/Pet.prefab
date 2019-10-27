@@ -187,7 +187,6 @@ GameObject:
   - component: {fileID: 7388369076768498445}
   - component: {fileID: -5382211464775587930}
   - component: {fileID: 6209867271360319928}
-  - component: {fileID: -1749778445567342605}
   m_Layer: 8
   m_Name: Pet
   m_TagString: Untagged
@@ -285,7 +284,8 @@ MonoBehaviour:
   Nametag: {fileID: 6168722563809069629}
   sm: {fileID: -5382211464775587930}
   drag: {fileID: 7388369076768498445}
-  StatsPage: {fileID: 0}
+  StatsPage: {fileID: 930221974258224589, guid: 04bb1cd46810b5249b37da97ab04d5c4,
+    type: 3}
   sprite: {fileID: 0}
   calm: {fileID: 0}
   angery: {fileID: 0}
@@ -333,7 +333,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb9f5628be5761b4daff720d89a6b885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatDisplays: {fileID: 0}
+  StatDisplays: {fileID: 930221974258224589, guid: 04bb1cd46810b5249b37da97ab04d5c4,
+    type: 3}
   StatValues: {fileID: 0}
   controller: {fileID: 5179108102921453591}
   Rate: 5
@@ -354,20 +355,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-1749778445567342605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5179108102921453589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb9f5628be5761b4daff720d89a6b885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatDisplays: {fileID: 0}
-  StatValues: {fileID: 0}
-  controller: {fileID: 5179108102921453591}
-  Rate: 0
-  GM: {fileID: 0}
