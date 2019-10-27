@@ -39,6 +39,7 @@ public class OfferingDispenser : MonoBehaviour, IPointerDownHandler
         GameObject go = GameObject.Instantiate(offeringPrefab, mainCam.ScreenToWorldPoint(eventData.position), Quaternion.identity);
         go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, 0);
         go.GetComponentInChildren<DragObject>().offeringDisplay = offeringDisplay;
+        go.GetComponentInChildren<OfferingController>().offeringDisplay = offeringDisplay;
         switch (offeringType)
         {
             case Offering.Human:
