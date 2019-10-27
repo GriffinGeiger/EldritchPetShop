@@ -103,9 +103,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    public static void Pause()
     {
-
+        PetController[] pets = FindObjectsOfType<PetController>();
+        foreach(PetController pet in pets)
+        {
+            pet.currentlyLosingDesire = false;
+            pet.gameObject.GetComponentInChildren<PathingModule>().travelling = false;
+        }
+    }
+    public static void Resume()
+    {
+        PetController[] pets = FindObjectsOfType<PetController>();
+        foreach (PetController pet in pets)
+        {
+            pet.currentlyLosingDesire = true;
+            pet.gameObject.GetComponentInChildren<PathingModule>().travelling = true;
+        }
     }
 
     public Vector3 GenerateRandomWanderPoint()

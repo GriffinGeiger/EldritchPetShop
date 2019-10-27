@@ -35,14 +35,14 @@ public class GUIManager : MonoBehaviour
         //Display textbox with text
     }
 
-    public void DisplayEventbox(EventEntry entry, string petName)
+    public void DisplayEventbox(EventEntry entry, PetController pet)
     {
         //Display textbox with text and two options as 2 buttons
-        
+        EventPopupGUI.SetActive(true);
         //replace name text with monster name \name
-        string eventText = entry.eventText.Replace("\\name", petName.ToString());
-        string optionAText = entry.optionAText.Replace("\\name", petName.ToString());
-        string optionBText = entry.optionBText.Replace("\\name", petName.ToString());
+        string eventText = entry.eventText.Replace("\\name", pet.petName.ToString());
+        string optionAText = entry.optionAText.Replace("\\name", pet.petName.ToString());
+        string optionBText = entry.optionBText.Replace("\\name", pet.petName.ToString());
 
         Text[] texts = EventPopupGUI.GetComponentsInChildren<Text>();
         foreach(Text t in texts)
@@ -54,7 +54,13 @@ public class GUIManager : MonoBehaviour
             else if(t.gameObject.CompareTag("EventText"))
                 t.text = eventText;
         }
-        
+
+        EventChoiceButton[] buttons = FindObjectsOfType<EventChoiceButton>();
+        foreach(EventChoiceButton b in buttons)
+        {
+            b.currentEntry = entry;
+            b.currentPet = pet;
+        }
     }
 
     public void SpendItem(string item)

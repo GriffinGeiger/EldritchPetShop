@@ -19,13 +19,14 @@ public class EventPlatformManager : MonoBehaviour
         gm = FindObjectOfType<GameManager>();
         gui = FindObjectOfType<GUIManager>();
     }
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Entered Door Trigger");
         PetController pc = other.GetComponent<PetController>();
         if (pc != null)
         {
-            gui.DisplayEventbox(getRandomEvent(EventPlatformType,pc.petType), pc.petName);
+            GameManager.Pause();
+            gui.DisplayEventbox(getRandomEvent(EventPlatformType,pc.petType), pc);
         }
 
     }

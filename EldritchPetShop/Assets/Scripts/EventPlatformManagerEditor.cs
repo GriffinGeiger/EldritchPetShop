@@ -11,12 +11,5 @@ public class EventPlatformManagerEditor : Editor
     {
         epm = (EventPlatformManager) target;
     }
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-        if(GUILayout.Button("Create Test Event"))
-        {
-           epm.gui.DisplayEventbox(epm.getRandomEvent(EventType.Cultist, PetType.Cthulu), "Cthuwu");
-        }
-    }
+
 }
