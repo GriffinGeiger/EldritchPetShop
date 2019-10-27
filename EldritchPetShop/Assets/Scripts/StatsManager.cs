@@ -31,8 +31,11 @@ public class StatsManager : MonoBehaviour
 
     void Update()
     {
-        controller.followers += ((-(.25*System.Math.Abs((int)controller.preferredReputation - (int)controller.currentReputation))+2) * Rate * Time.deltaTime);
-        GM.Money += ((controller.followers) * Time.deltaTime);
+        if (!FindObjectOfType<GameManager>().isPaused)
+        {
+            controller.followers += ((-(.25 * System.Math.Abs((int)controller.preferredReputation - (int)controller.currentReputation)) + 2) * Rate * Time.deltaTime);
+            GM.Money += ((controller.followers) * Time.deltaTime);
+        }
     }
 
     public void OpenStats()
