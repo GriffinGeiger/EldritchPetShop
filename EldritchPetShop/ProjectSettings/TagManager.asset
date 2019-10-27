@@ -50,6 +50,9 @@ TagManager:
   - name: EventPlatform
     uniqueID: 1249444341
     locked: 0
+  - name: Offerings
+    uniqueID: 509096985
+    locked: 0
   - name: Pets
     uniqueID: 597487083
     locked: 0

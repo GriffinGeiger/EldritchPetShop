@@ -9,13 +9,16 @@ public class DragObject : MonoBehaviour
     private Vector3 mOffset;
     private float mZCoord;
     public GameObject NameTag;
-    private void Start()
+    public bool isOffering;
+    public GameObject offeringDisplay;
+
+    void Start()
     {
-        NameTag.GetComponent<Renderer>().sortingLayerName = "Pets";
+        if(NameTag != null)
+            NameTag.GetComponent<Renderer>().sortingLayerName = "Pets";
     }
     void OnMouseDown()
     {
-        Debug.Log("Mouse Down");
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
         //Store offset = gameobject world pos - mouse world pos
         mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
@@ -42,12 +45,20 @@ public class DragObject : MonoBehaviour
         {
             pc.currentlyLosingDesire = true;
         }
-    }
-    private void OnMouseEnter()
-    {
-        if(NameTag != null)
+        if (isOffering)
         {
-            NameTag.SetActive(true);
+            offeringDisplay.SetActive(true);
+            enabled = false;
+        }
+    }
+    public void OnMouseEnter()
+    {
+        if (enabled)
+        {
+            if (NameTag != null)
+            {
+                NameTag.SetActive(true);
+            }
         }
     }
     private void OnMouseExit()
@@ -57,6 +68,7 @@ public class DragObject : MonoBehaviour
         {
             NameTag.SetActive(false);
         }
+
     }
 
     private Vector3 GetMouseAsWorldPoint()
@@ -69,8 +81,14 @@ public class DragObject : MonoBehaviour
         return Camera.main.ScreenToWorldPoint(mousePoint);
     }
 
-    void OnMouseDrag()
+    public void OnMouseDrag()
     {
-        transform.position = GetMouseAsWorldPoint() + mOffset;
+
+        if (enabled)
+        {
+            transform.position = GetMouseAsWorldPoint() + mOffset;
+        }
+       
     }
+
 }
