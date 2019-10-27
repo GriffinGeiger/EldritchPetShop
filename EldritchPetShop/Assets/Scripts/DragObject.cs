@@ -53,7 +53,7 @@ public class DragObject : MonoBehaviour
             if (isOffering)
             {
                 offeringDisplay.SetActive(true);
-                enabled = false;
+                
             }
         }
     }

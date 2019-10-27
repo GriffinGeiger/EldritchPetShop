@@ -105,6 +105,7 @@ public class GameManager : MonoBehaviour
 
     public static void Pause()
     {
+        Debug.Log("Paused");
         PetController[] pets = FindObjectsOfType<PetController>();
         foreach(PetController pet in pets)
         {
@@ -119,6 +120,7 @@ public class GameManager : MonoBehaviour
     }
     public static void Resume()
     {
+        Debug.Log("Resumed");
         PetController[] pets = FindObjectsOfType<PetController>();
         foreach (PetController pet in pets)
         {
@@ -128,7 +130,7 @@ public class GameManager : MonoBehaviour
         DragObject[] drags = FindObjectsOfType<DragObject>();
         foreach (DragObject drag in drags)
         {
-            drag.enabled = false;
+            drag.enabled = true;
         }
     }
 
