@@ -1034,18 +1034,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649887289966693}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649887289966699}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649887289966699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,7 +1048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 0
+  petType: 0
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1259,18 +1248,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649887473359143}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649887473359141}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649887473359141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1284,7 +1262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 4
+  petType: 4
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1771,18 +1749,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649888029334591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649888029334589}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649888029334589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,7 +1763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 3
+  petType: 3
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -1919,18 +1886,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649888033124264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649888235973976}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649888033124270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,7 +1900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 5
+  petType: 5
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -2165,7 +2121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 0
-  PetType: 0
+  petType: 0
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: Exit
@@ -2867,18 +2823,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649888708843757}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649888708843763}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649888708843763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2892,7 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 2
+  petType: 2
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 
@@ -3015,18 +2960,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7678649888716370668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7678649888716370674}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &7678649888716370674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3040,7 +2974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Price: 100
-  PetType: 1
+  petType: 1
   SM: {fileID: 7678649888235973976}
   Purchasing: 0
   ButtonType: 

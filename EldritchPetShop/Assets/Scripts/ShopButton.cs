@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShopButton : MonoBehaviour
 {
     public float Price;
     //public int Owned;
-    public PetType PetType;
+    public PetType petType;
     //public PetController PC;
     //public bool hidden;
     public ShopManager SM;
@@ -27,8 +28,15 @@ public class ShopButton : MonoBehaviour
         SM = (ShopManager)GameObject.FindObjectOfType(typeof(ShopManager));
         GUIMan = (GUIManager)GameObject.FindObjectOfType(typeof(GUIManager));
         //this.SetActive(true);
+        Button btn = GetComponent<Button>();
+        btn.onClick.AddListener(Purchase);
     }
     
+    void Purchase()
+    {
+        SM.Purchase(petType);
+        
+    }
     /*private void Press()
     {
         switch(ButtonType)

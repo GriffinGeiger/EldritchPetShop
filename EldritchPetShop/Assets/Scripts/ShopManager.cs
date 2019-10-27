@@ -55,9 +55,9 @@ public class ShopManager : MonoBehaviour
         OpenShopButton.SetActive(true);
         ShopBook.SetActive(false);
     }
-    public void Purchase()
+    public void Purchase(PetType pet)
     {
-        PetType pet = PetType.Cthulu;
+        
         switch (pet)
         {
             case (PetType.Shoggoth):
