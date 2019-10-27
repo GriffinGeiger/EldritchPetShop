@@ -542,6 +542,31 @@ PrefabInstance:
       propertyPath: SpawnLocation
       value: 
       objectReference: {fileID: 1498935540}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: PriceSho
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: PriceMig
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: PriceCth
+      value: 200000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: PriceHas
+      value: 300000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: PriceShu
+      value: 500000
+      objectReference: {fileID: 0}
     - target: {fileID: 7678649887473359141, guid: ee585257e57abe547ac9674f2950810c,
         type: 3}
       propertyPath: GUIMan
@@ -562,7 +587,35 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Cthulhu
 
-        $800,000'
+        $200,000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649887092618964, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Hastur
+
+        $300,000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649887541607212, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Shub-Niggurath
+
+        $500,000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888213860573, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Shoggoth
+
+        $10,000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888615968767, guid: ee585257e57abe547ac9674f2950810c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Mi-Go
+
+        $50,000'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee585257e57abe547ac9674f2950810c, type: 3}
