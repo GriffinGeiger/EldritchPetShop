@@ -185,7 +185,7 @@ MonoBehaviour:
     health_B: 0
   - PetTypes: 050000000200000003000000
     eventType: 0
-    eventText: \name was stabbed as a ritual.
+    eventText: \name was stabbed for a ritual.
     optionAText: \name got hurt (-30 health)
     optionBText: Oof (-30 health)
     percentageOfFollowers_A: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
     reputation_B: 2
     money_B: 0
     health_B: 0
-  - PetTypes: 030000000500000002000000
+  - PetTypes: 04000000
     eventType: 0
     eventText: \name let all the cultists pet them.
     optionAText: Followers approve (+25% followers) (+1 Love)
@@ -248,7 +248,7 @@ MonoBehaviour:
     reputation_B: -1
     money_B: 0
     health_B: 0
-  - PetTypes: 03000000040000000000000002000000
+  - PetTypes: 04000000
     eventType: 0
     eventText: \name pleases the cultists.
     optionAText: Well that ni- (+30% followers) (+2 Love)
