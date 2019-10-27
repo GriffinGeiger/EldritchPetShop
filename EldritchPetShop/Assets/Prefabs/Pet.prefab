@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3232388464373494034}
   - component: {fileID: 3621350553016326677}
   - component: {fileID: 6168722563809069629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484674802299097959}
   - component: {fileID: 6887596791117442891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 5179108102921453591}
   - component: {fileID: 5179108102921453590}
   - component: {fileID: 7388369076768498445}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -21,6 +21,7 @@ public class EventPlatformManager : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Entered Door Trigger");
         PetController pc = other.GetComponent<PetController>();
         if (pc != null)
         {
