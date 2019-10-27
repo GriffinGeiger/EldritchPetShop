@@ -148,6 +148,11 @@ PrefabInstance:
       propertyPath: bobbingRate
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: matureAge
+      value: 2000000
+      objectReference: {fileID: 0}
     - target: {fileID: 5179108102921453590, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: speed

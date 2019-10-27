@@ -105,6 +105,11 @@ PrefabInstance:
       propertyPath: followersRate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: matureAge
+      value: 600000
+      objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_LocalPosition.x

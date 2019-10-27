@@ -124,9 +124,10 @@ public class PetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         if (petHealth <= 0)
             Die();
+        age += 1000 * Time.deltaTime;
         if(age >= matureAge)
         {
             Matured();
