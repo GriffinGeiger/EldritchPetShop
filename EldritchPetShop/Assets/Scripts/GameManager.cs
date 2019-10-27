@@ -111,6 +111,11 @@ public class GameManager : MonoBehaviour
             pet.currentlyLosingDesire = false;
             pet.gameObject.GetComponentInChildren<PathingModule>().travelling = false;
         }
+        DragObject[] drags = FindObjectsOfType<DragObject>();
+        foreach (DragObject drag in drags)
+        {
+            drag.enabled = false;
+        }
     }
     public static void Resume()
     {
@@ -119,6 +124,11 @@ public class GameManager : MonoBehaviour
         {
             pet.currentlyLosingDesire = true;
             pet.gameObject.GetComponentInChildren<PathingModule>().travelling = true;
+        }
+        DragObject[] drags = FindObjectsOfType<DragObject>();
+        foreach (DragObject drag in drags)
+        {
+            drag.enabled = false;
         }
     }
 

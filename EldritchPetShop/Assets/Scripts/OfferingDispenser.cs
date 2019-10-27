@@ -36,6 +36,29 @@ public class OfferingDispenser : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("Dispensing");
+
+        switch (offeringType)
+        {
+            case Offering.Human:
+                if (GUI.Humans <= 0)
+                    return;
+                break;
+            case Offering.Animal:
+                if (GUI.Animals <= 0)
+                    return;
+                break;
+            case Offering.Relic:
+                if (GUI.Relics <= 0)
+                    return;
+                break;
+            case Offering.Random:
+                return;
+                break;
+            default:
+                break;
+        }
+
+
         GameObject go = GameObject.Instantiate(offeringPrefab, mainCam.ScreenToWorldPoint(eventData.position), Quaternion.identity);
         go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, 0);
         go.GetComponentInChildren<DragObject>().offeringDisplay = offeringDisplay;

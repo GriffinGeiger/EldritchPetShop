@@ -19,36 +19,42 @@ public class DragObject : MonoBehaviour
     }
     void OnMouseDown()
     {
-        mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-        //Store offset = gameobject world pos - mouse world pos
-        mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
-        PathingModule pm = GetComponent<PathingModule>();
-        if (pm != null)
+        if (enabled)
         {
-            pm.travelling = false;
-        }
-        PetController pc = GetComponent<PetController>();
-        if(pc != null)
-        {
-            pc.currentlyLosingDesire = false;
+            mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
+            //Store offset = gameobject world pos - mouse world pos
+            mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
+            PathingModule pm = GetComponent<PathingModule>();
+            if (pm != null)
+            {
+                pm.travelling = false;
+            }
+            PetController pc = GetComponent<PetController>();
+            if (pc != null)
+            {
+                pc.currentlyLosingDesire = false;
+            }
         }
     }
     void OnMouseUp()
     {
-        PathingModule pm = GetComponent<PathingModule>();
-        if (pm != null)
+        if (enabled)
         {
-            pm.travelling = true;
-        }
-        PetController pc = GetComponent<PetController>();
-        if (pc != null)
-        {
-            pc.currentlyLosingDesire = true;
-        }
-        if (isOffering)
-        {
-            offeringDisplay.SetActive(true);
-            enabled = false;
+            PathingModule pm = GetComponent<PathingModule>();
+            if (pm != null)
+            {
+                pm.travelling = true;
+            }
+            PetController pc = GetComponent<PetController>();
+            if (pc != null)
+            {
+                pc.currentlyLosingDesire = true;
+            }
+            if (isOffering)
+            {
+                offeringDisplay.SetActive(true);
+                enabled = false;
+            }
         }
     }
     public void OnMouseEnter()
@@ -63,10 +69,12 @@ public class DragObject : MonoBehaviour
     }
     private void OnMouseExit()
     {
-
-        if (NameTag != null)
+        if (enabled)
         {
-            NameTag.SetActive(false);
+            if (NameTag != null)
+            {
+                NameTag.SetActive(false);
+            }
         }
 
     }

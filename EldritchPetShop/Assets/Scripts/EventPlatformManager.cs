@@ -25,8 +25,12 @@ public class EventPlatformManager : MonoBehaviour
         PetController pc = other.GetComponent<PetController>();
         if (pc != null)
         {
-            GameManager.Pause();
-            gui.DisplayEventbox(getRandomEvent(EventPlatformType,pc.petType), pc);
+            if ((EventPlatformType == EventType.Cultist && pc.currentDesire == Desire.GoToCult)
+                || (EventPlatformType == EventType.World && pc.currentDesire == Desire.GoToWorld))
+            {
+                GameManager.Pause();
+                gui.DisplayEventbox(getRandomEvent(EventPlatformType, pc.petType), pc);
+            }
         }
 
     }
