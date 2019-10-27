@@ -25,6 +25,9 @@ public class ShopManager : MonoBehaviour
     public GameObject ShubPrefab;
     public GameObject ShoggothPrefab;
 
+    [Header("References")] 
+    public GameObject ExitButton;
+
     public GUIManager GUIMan;
     public Transform SpawnLocation;
 
@@ -44,6 +47,7 @@ public class ShopManager : MonoBehaviour
         }
         OpenShopButton.SetActive(false);
         ShopBook.SetActive(true);
+        ExitButton.SetActive(true);
     }
     public void CloseShop()
     {
@@ -54,6 +58,7 @@ public class ShopManager : MonoBehaviour
         }
         OpenShopButton.SetActive(true);
         ShopBook.SetActive(false);
+        ExitButton.SetActive(false);
     }
     public void Purchase(PetType pet)
     {
