@@ -1439,7 +1439,7 @@ PrefabInstance:
     - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: Money
-      value: 1000000000
+      value: 15000
       objectReference: {fileID: 0}
     - target: {fileID: 5773518600211194143, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -9601,7 +9601,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShubCultEvents.Array.data[1].optionAText
-      value: Well that ni- (+30% followers) (+2 Love)
+      value: Well that's nice (+30% followers) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}

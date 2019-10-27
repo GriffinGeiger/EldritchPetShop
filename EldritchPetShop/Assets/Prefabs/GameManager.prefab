@@ -212,14 +212,14 @@ MonoBehaviour:
   - PetTypes: 05000000
     eventType: 1
     eventText: \name built a building for his followers.
-    optionAText: See if it is up to code (-$20000) (+30% followers) (+1 Love)
-    optionBText: Let the building be (-50% followers) (+3 Fear)
-    percentageOfFollowers_A: 20
-    reputation_A: -1
-    money_A: -20000
+    optionAText: They're so helpful (+50% followers)
+    optionBText: Much apprecieated! (+50% followers)
+    percentageOfFollowers_A: 50
+    reputation_A: 0
+    money_A: 0
     health_A: 0
-    percentageOfFollowers_B: -50
-    reputation_B: 3
+    percentageOfFollowers_B: 50
+    reputation_B: 0
     money_B: 0
     health_B: 0
   - PetTypes: 030000000000000001000000
