@@ -235,6 +235,34 @@ MonoBehaviour:
   bobbingRate: 0
   matureAge: 0
   healthFightDrainRate: 2
+  MaturedMessage:
+    PetTypes: 
+    eventType: 0
+    eventText: \name is all grown up and ready to move out!
+    optionAText: Congrats! I know they'll do something great! (+$100000)
+    optionBText: I hate to see them go, and so will the multiverse (+$100000)
+    percentageOfFollowers_A: 0
+    reputation_A: 0
+    money_A: 100000
+    health_A: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: 100000
+    health_B: 0
+  DiedMessage:
+    PetTypes: 
+    eventType: 0
+    eventText: \name has died
+    optionAText: How did you kill a god (-100000)
+    optionBText: You should lose your babysitting license (-100000)
+    percentageOfFollowers_A: 0
+    reputation_A: 0
+    money_A: -100000
+    health_A: 0
+    percentageOfFollowers_B: 0
+    reputation_B: 0
+    money_B: -100000
+    health_B: 0
   petName: Cthulu
   age: 0
   currentReputation: 2
