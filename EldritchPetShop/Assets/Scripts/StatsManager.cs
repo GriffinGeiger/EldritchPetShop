@@ -23,10 +23,13 @@ public class StatsManager : MonoBehaviour
         CurrentName = controller.petName;
         CurrentHealth = controller.petHealth;
         CurrentRep = controller.currentReputation;
-        CurrentFollowers = controller.followers;
+        CurrentFollowers = 10000;
         DesiredRep = controller.preferredReputation;
-        //Rate = controller.followersRate;
-        Rate = 1;
+        Rate = controller.followersRate;
+    }
+
+    void Awake()
+    {
         GM = (GUIManager)FindObjectOfType(typeof(GUIManager));
     }
 

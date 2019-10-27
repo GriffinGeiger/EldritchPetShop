@@ -296,10 +296,10 @@ MonoBehaviour:
   CurrentName: 
   CurrentHealth: 0
   CurrentRep: 0
-  CurrentFollowers: 0
+  CurrentFollowers: 10000
   StatDisplays: {fileID: 0}
   StatValues: {fileID: 0}
   controller: {fileID: 0}
   DesiredRep: 0
-  Rate: 0
+  Rate: 5
   GM: {fileID: 0}
