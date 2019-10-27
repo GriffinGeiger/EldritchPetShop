@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 public enum Offering
 {
     Human,
@@ -104,6 +106,7 @@ public class PetController : MonoBehaviour
         desireWeights.Add(Desire.Fight, fightWeight);
         desireWeights.Add(Desire.GoToCult, goToCultWeight);
         desireWeights.Add(Desire.GoToWorld, goToWorldWeight);
+        GetComponentInChildren<TextMesh>().text = petName;
     }
 
     // Update is called once per frame

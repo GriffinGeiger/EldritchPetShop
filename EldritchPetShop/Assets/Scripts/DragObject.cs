@@ -8,7 +8,11 @@ public class DragObject : MonoBehaviour
 {
     private Vector3 mOffset;
     private float mZCoord;
-
+    public GameObject NameTag;
+    private void Start()
+    {
+        NameTag.GetComponent<Renderer>().sortingLayerName = "Pets";"
+    }
     void OnMouseDown()
     {
         Debug.Log("Mouse Down");
@@ -37,6 +41,24 @@ public class DragObject : MonoBehaviour
         if (pc != null)
         {
             pc.currentlyLosingDesire = true;
+        }
+    }
+    private void OnMouseEnter()
+    {
+        Debug.Log("MouseEntered");
+      
+        if(NameTag != null)
+        {
+            Debug.Log("ShowingName");
+            NameTag.SetActive(true);
+        }
+    }
+    private void OnMouseExit()
+    {
+
+        if (NameTag != null)
+        {
+            NameTag.SetActive(false);
         }
     }
 

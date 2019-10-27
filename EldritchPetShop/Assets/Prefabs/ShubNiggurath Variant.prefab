@@ -25,6 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e33e349070084f488da9dff2d1d4346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NameTag: {fileID: 8269816843434601277}
 --- !u!1001 &4765494469102888928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35,7 +36,7 @@ PrefabInstance:
     - target: {fileID: 5179108102921453589, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_Name
-      value: ShubNiggurath
+      value: ShubNiggurath Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
@@ -128,6 +129,12 @@ PrefabInstance:
 --- !u!1 &431655731109586933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5179108102921453589, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4765494469102888928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8269816843434601277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3523544861829582045, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
     type: 3}
   m_PrefabInstance: {fileID: 4765494469102888928}
   m_PrefabAsset: {fileID: 0}
