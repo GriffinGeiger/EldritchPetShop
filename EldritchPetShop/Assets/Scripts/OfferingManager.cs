@@ -24,7 +24,7 @@ public class OfferingManager : MonoBehaviour
 
     void Update()
     {
-        //if time unpaused
+        
         time += Time.deltaTime;
         SType = PickSac();
         Sacrifices = SacNum();
@@ -34,7 +34,7 @@ public class OfferingManager : MonoBehaviour
             DeltaTime = rnd.Next(30, 61);
         }
         GM.Money += ((Followers / 1000)*Time.deltaTime);
-        // end if
+        
     }
 
     string PickSac()
