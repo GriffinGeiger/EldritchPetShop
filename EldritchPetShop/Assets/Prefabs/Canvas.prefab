@@ -1990,7 +1990,6 @@ GameObject:
   - component: {fileID: 7678649888050209945}
   - component: {fileID: 7678649888050209944}
   - component: {fileID: 7678649888050209951}
-  - component: {fileID: 7678649888050209947}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -2108,24 +2107,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7678649888050209947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7678649888050209949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 703fb08ec5e3ce348bbd7ac63439c70d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Price: 0
-  petType: 0
-  SM: {fileID: 7678649888235973976}
-  Purchasing: 0
-  ButtonType: Exit
-  GUIMan: {fileID: 0}
 --- !u!1 &7678649888062457443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2346,11 +2327,16 @@ MonoBehaviour:
   PriceAza: 10000000
   CthuluPrefab: {fileID: 3147198223583488136, guid: 0e6e8db1265c71a40be4cdd3f45e9f83,
     type: 3}
-  MiGoPrefab: {fileID: 0}
-  HasturPrefab: {fileID: 0}
-  AzathothPrefab: {fileID: 0}
-  ShubPrefab: {fileID: 0}
-  ShoggothPrefab: {fileID: 0}
+  MiGoPrefab: {fileID: 9003157794190805698, guid: 8c7c4ac9c6a254b429a4be7b08a47610,
+    type: 3}
+  HasturPrefab: {fileID: 3406502573990003532, guid: b986f352b30e706479bf7ceddc3c1e99,
+    type: 3}
+  AzathothPrefab: {fileID: 6515647108720223735, guid: ad80a81ac73faa541b7873fc24058917,
+    type: 3}
+  ShubPrefab: {fileID: 431655731109586933, guid: 190acdd2a0314be489d076936c9cc8f6,
+    type: 3}
+  ShoggothPrefab: {fileID: 7604012703197985993, guid: 44973b6777e4875429c7c849f6d62671,
+    type: 3}
   GUIMan: {fileID: 0}
   SpawnLocation: {fileID: 0}
 --- !u!1 &7678649888566788683
