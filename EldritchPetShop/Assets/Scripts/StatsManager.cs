@@ -23,7 +23,7 @@ public class StatsManager : MonoBehaviour
         CurrentName = controller.petName;
         CurrentHealth = controller.petHealth;
         CurrentRep = controller.currentReputation;
-        CurrentFollowers = 10000;
+        CurrentFollowers = controller.followers;
         DesiredRep = controller.preferredReputation;
         Rate = controller.followersRate;
     }
@@ -35,50 +35,8 @@ public class StatsManager : MonoBehaviour
 
     void Update()
     {
-        if(DesiredRep.ToString() == "Loved")
-        {
-            if ((int)CurrentRep >= 5)
-            {
-                CurrentFollowers += 2 * Rate * Time.deltaTime;
-            }
-            else if ((int)CurrentRep >= 2)
-            {
-                CurrentFollowers += Rate * Time.deltaTime;
-            }
-            else
-            {
-                CurrentFollowers += .5 * Rate * Time.deltaTime;
-            }
-        }
-
-        if (DesiredRep.ToString() == "Feared")
-        {
-            if ((int)CurrentRep <= 1)
-            {
-                CurrentFollowers += 2 * Rate * Time.deltaTime;
-            }
-            else if ((int)CurrentRep <= 4)
-            {
-                CurrentFollowers += Rate * Time.deltaTime;
-            }
-            else
-            {
-                CurrentFollowers += .5 * Rate * Time.deltaTime;
-            }
-        }
-
-        if (DesiredRep.ToString() == "Neutral")
-        {
-            if ((int)CurrentRep <= 4 | (int)CurrentRep >= 2)
-            {
-                CurrentFollowers += 2 * Rate * Time.deltaTime;
-            }
-            else
-            {
-                CurrentFollowers += .5 * Rate * Time.deltaTime;
-            }
-        }
-        GM.Money += ((CurrentFollowers / 1000) * Time.deltaTime);
+        CurrentFollowers += ((-(.25*System.Math.Abs((int)DesiredRep - (int)CurrentRep))+2) * Rate * Time.deltaTime);
+        GM.Money += ((CurrentFollowers) * Time.deltaTime);
     }
 
     public void OpenStats()

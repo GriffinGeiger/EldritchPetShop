@@ -838,15 +838,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7678649888033124270, guid: ee585257e57abe547ac9674f2950810c,
         type: 3}
-      propertyPath: GUIMan
-      value: 
-      objectReference: {fileID: 527872920}
-    - target: {fileID: 7678649888716370674, guid: ee585257e57abe547ac9674f2950810c,
+      propertyPath: PriceSho
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
         type: 3}
-      propertyPath: GUIMan
-      value: 
-      objectReference: {fileID: 527872920}
-    - target: {fileID: 7678649887289966699, guid: ee585257e57abe547ac9674f2950810c,
+      propertyPath: PriceMig
+      value: 100000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678649888235973976, guid: ee585257e57abe547ac9674f2950810c,
         type: 3}
       propertyPath: GUIMan
       value: 
@@ -1853,7 +1853,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.size
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -1868,12 +1868,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].PetTypes.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[8].PetTypes.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -2213,6 +2213,51 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: ShoggothCultEvents.Array.data[7].PetTypes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: Events.Array.data[0].PetTypes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: AzathothWorldEvents.Array.data[0].PetTypes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: CthuluWorldEvents.Array.data[0].PetTypes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[0].PetTypes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[1].PetTypes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[2].PetTypes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[3].PetTypes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[4].PetTypes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: ShubWorldEvents.Array.data[0].PetTypes.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
@@ -3018,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: CthuluWorldEvents.Array.data[5].money
-      value: -25000
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -3523,52 +3568,52 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].eventText
-      value: The Blood Moon has risen!
+      value: It is October 31st!
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].optionAText
-      value: Let \name show their true power! (+50% followers) (-$25000) (+4 Fear)
+      value: Let \name go Trick-or-Treating (+$1000) (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].optionBText
-      value: Stop \name before any damage can be caused (-10% followers)
+      value: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].percentageOfFollowers
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].reputation
-      value: 4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].money
-      value: -10
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[5].percentageOfFollowers_B
-      value: -10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].PetTypes.Array.data[1]
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].PetTypes.Array.data[2]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].PetTypes.Array.data[3]
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -3588,17 +3633,17 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].eventText
-      value: It is October 31st!
+      value: It's Friday the 13th!
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].optionAText
-      value: Let \name go Trick-or-Treating (+$1000) (+2 Love)
+      value: Hunt down the murderers (+2 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].optionBText
-      value: Scare all the Trick-or-Treaters (+5% Followers) (+2 Fear)
+      value: Scare away the people (+2 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -3608,12 +3653,12 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].money
-      value: 1000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[6].percentageOfFollowers_B
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -3648,42 +3693,42 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].eventType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].eventText
-      value: It's Friday the 13th!
+      value: \name destroyed a nuclear power plant!
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].optionAText
-      value: Hunt down the murderers (+2 Love)
+      value: Pay for the damages (-$5000) (-10% followers) (+2 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].optionBText
-      value: Scare away the people (+2 Fear)
+      value: Blame Russia (+10% followers) (+3 Love)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[7].reputation
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[7].reputation_B
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[7].reputation_B
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: MiGoWorldEvents.Array.data[8].PetTypes.Array.data[0]
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[8].PetTypes.Array.data[2]
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
@@ -3693,127 +3738,127 @@ PrefabInstance:
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[8].eventText
-      value: \name destroyed a nuclear power plant!
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].optionAText
-      value: Pay for the damages (-$5000) (-10% followers) (+2 Fear)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].optionBText
-      value: Blame Russia (+10% followers) (+3 Love)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].percentageOfFollowers
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].reputation
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].money
-      value: -5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].percentageOfFollowers_B
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[8].reputation_B
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[1]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[2]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[3]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
-        type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].eventText
       value: \name is feeling rational today.
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].optionAText
+      propertyPath: MiGoWorldEvents.Array.data[8].optionAText
       value: Go get a job (+$5000)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[9].optionBText
+      propertyPath: MiGoWorldEvents.Array.data[8].optionBText
       value: Go get more followers (+5% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[0]
-      value: 3
+      propertyPath: MiGoWorldEvents.Array.data[8].percentageOfFollowers
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[1]
+      propertyPath: MiGoWorldEvents.Array.data[8].reputation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[8].money
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[8].percentageOfFollowers_B
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[8].reputation_B
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[1]
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[2]
+      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[2]
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].eventType
+      propertyPath: MiGoWorldEvents.Array.data[9].PetTypes.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[9].eventType
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].eventText
+      propertyPath: MiGoWorldEvents.Array.data[9].eventText
       value: \name killed a herd of cattle!
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].optionAText
+      propertyPath: MiGoWorldEvents.Array.data[9].optionAText
       value: Repay the farmer (-$5000) (+1 Fear)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].optionBText
+      propertyPath: MiGoWorldEvents.Array.data[9].optionBText
       value: Blame \name's followers (-15% followers)
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
-      propertyPath: MiGoWorldEvents.Array.data[10].reputation
+      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[1]
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].PetTypes.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].eventType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].eventText
+      value: \name terrorized a remote village!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].optionAText
+      value: Pass of the rumors as legend (-15% followers)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].optionBText
+      value: Spread the rumors to more people (+10% followers) (+2 Fear) (-$5000)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
+      propertyPath: MiGoWorldEvents.Array.data[10].reputation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
+        type: 3}
       propertyPath: MiGoWorldEvents.Array.data[10].money
-      value: -5000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
       propertyPath: MiGoWorldEvents.Array.data[10].percentageOfFollowers_B
-      value: -15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7496821899251015718, guid: 43f9e60937db3454098e7bf79c1a0596,
         type: 3}
