@@ -56,80 +56,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cthulu
       objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: -5382211464775587930, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: preferredReputation
-      value: 6
+      propertyPath: CurrentFollowers
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: -5382211464775587930, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: preferredLocation
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: desireLossRate
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: desireFastDropDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: temper
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: appeaseStrength
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: bobbingAmplitude
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: bobbingRate
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: matureAge
-      value: 600000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: currentReputation
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: wanderWeight
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: fightWeight
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: goToWorldWeight
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: goToCultWeight
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 5179108102921453590, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: speed
-      value: 3
+      propertyPath: Rate
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6869575643757024528, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
@@ -186,15 +121,85 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6168722563809069629, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: m_Anchor
-      value: 4
+      propertyPath: preferredReputation
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 6168722563809069629, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: m_Color.rgba
-      value: 4278190335
+      propertyPath: preferredLocation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireLossRate
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: desireFastDropDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: temper
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: appeaseStrength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: bobbingAmplitude
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: bobbingRate
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: matureAge
+      value: 600000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: currentReputation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: currentlyLosingDesire
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: wanderWeight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: fightWeight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: goToWorldWeight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453591, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: goToCultWeight
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179108102921453590, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1484674802299097959, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
@@ -211,15 +216,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.25938
       objectReference: {fileID: 0}
-    - target: {fileID: 3232388464373494034, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.6
-      objectReference: {fileID: 0}
     - target: {fileID: 4496544141588441155, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
       propertyPath: m_Name
       value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232388464373494034, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 6887596791117442891, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
@@ -227,18 +232,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 2b05497ee4834bb45aa7f4aec1458ed8,
         type: 3}
-    - target: {fileID: -5382211464775587930, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: 6168722563809069629, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: CurrentFollowers
-      value: 0
+      propertyPath: m_Anchor
+      value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -5382211464775587930, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
+    - target: {fileID: 6168722563809069629, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4,
         type: 3}
-      propertyPath: Rate
-      value: 0
+      propertyPath: m_Color.rgba
+      value: 4278190335
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8241116761826047944, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f4a8c953afd70c42b80b22cc1ffe4a4, type: 3}
 --- !u!1 &3147198223583488136 stripped
 GameObject:

@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 5179108102921453590}
   - component: {fileID: 7388369076768498445}
   - component: {fileID: -5382211464775587930}
-  - component: {fileID: 8241116761826047944}
+  - component: {fileID: 6209867271360319928}
   m_Layer: 8
   m_Name: Pet
   m_TagString: Untagged
@@ -306,24 +306,19 @@ MonoBehaviour:
   DesiredRep: 0
   Rate: 5
   GM: {fileID: 0}
---- !u!50 &8241116761826047944
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!54 &6209867271360319928
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5179108102921453589}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_UseGravity: 0
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_Constraints: 112
   m_CollisionDetection: 0
-  m_Constraints: 0
