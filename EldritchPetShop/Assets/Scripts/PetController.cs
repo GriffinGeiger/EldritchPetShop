@@ -5,7 +5,8 @@ public enum Offering
 {
     Human,
     Animal,
-    Relic
+    Relic,
+    Random
 }
 public enum Reputation
 {
